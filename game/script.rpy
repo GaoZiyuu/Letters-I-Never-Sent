@@ -3212,7 +3212,785 @@ label chapter_4:
     scene black
     with fade
 
-    centered "End of Chapter 4"
+    jump chapter_5
+
+
+# Chapter 5 - The Days Before Goodbye
+
+label chapter_5:
+
+    scene black
+    with fade
+
+    centered "CHAPTER 5"
+    centered "The Days Before Goodbye"
+
+    "The streets are quiet by the time you leave the café."
+
+    "You walk home beneath the familiar streetlights."
+
+    "Your phone is filled with photographs from tonight."
+
+    "Mina insisted on taking at least twenty."
+
+    "Kai complained through every single one."
+
+    "And Yuna somehow managed to blink in half of them."
+
+    p "Some things never change..."
+
+    "You stop at a pedestrian crossing."
+
+    "A photograph from eight years ago comes to mind."
+
+    "Five teenagers, smiling at the camera."
+
+    "Back then, you'd thought there would always be more photographs."
+
+    "More afternoons."
+
+    "More ordinary days."
+
+    "But three months passed faster than you expected."
+
+    scene black
+    with fade
+
+    centered "EIGHT YEARS AGO"
+    centered "THREE MONTHS LEFT"
+
+    "The days following your announcement are strangely normal."
+
+    "Classes continue."
+
+    "Homework piles up."
+
+    "Kai still complains about every test."
+
+    "Mina continues threatening to fail exams she always passes."
+
+    "And Ren..."
+
+    "Ren is still Ren."
+
+    b "HEY."
+
+    p "What?"
+
+    b "You forgot your pencil case."
+
+    "He drops it onto your desk."
+
+    p "Oh."
+
+    p "Thanks."
+
+    b "Seriously."
+
+    b "How are you gonna survive overseas without me?"
+
+    p "Peacefully."
+
+    b "WOW."
+
+    p "Finally, some peace and quiet."
+
+    b "You're welcome for all my years of service."
+
+    "He bows dramatically."
+
+    "You laugh."
+
+    "Everything sounds exactly the way it always has."
+
+    "Except now, whenever he mentions you leaving..."
+
+    "You notice how quickly he changes the subject."
+
+    scene black
+    with dissolve
+
+    centered "TWO MONTHS LEFT"
+
+    "One evening, you find Grandma sorting vegetables in the kitchen."
+
+    gm "You're home early."
+
+    p "Yeah."
+
+    gm "No studying with your friends today?"
+
+    p "Not today."
+
+    "You pull out a chair and sit beside her."
+
+    "Grandma glances at you."
+
+    gm "Something on your mind?"
+
+    p "Not really."
+
+    "She raises an eyebrow."
+
+    gm "You've been saying that a lot lately."
+
+    p "Have I?"
+
+    gm "Mm."
+
+    "She sets a bowl in front of you."
+
+    gm "Help me with these."
+
+    "You begin peeling the vegetables."
+
+    "For a while, neither of you speaks."
+
+    gm "Are you excited?"
+
+    p "About moving?"
+
+    gm "Of course."
+
+    "You think for a moment."
+
+    p "Yeah."
+
+    p "I really miss Mum and Dad."
+
+    p "It'll be nice to finally live with them."
+
+    gm "I'm glad."
+
+    "She smiles."
+
+    gm "They've worked very hard to bring you over."
+
+    p "I know."
+
+    "You look down at your hands."
+
+    p "But..."
+
+    gm "But?"
+
+    p "I'm going to miss everyone here."
+
+    "Grandma pauses."
+
+    gm "Of course you will."
+
+    p "What if things change?"
+
+    gm "They will."
+
+    "You look up."
+
+    p "Grandma!"
+
+    gm "What?"
+
+    p "You're supposed to say everything will stay the same!"
+
+    "She laughs."
+
+    gm "And lie to you?"
+
+    "She gently pats your hand."
+
+    gm "People grow up."
+
+    gm "They move away, make new friends, find new things to love."
+
+    gm "That's just life."
+
+    p "..."
+
+    gm "But that doesn't mean the time you spent together disappears."
+
+    "You fall quiet."
+
+    gm "And you can always come home to visit."
+
+    p "Promise?"
+
+    gm "Of course."
+
+    "She smiles."
+
+    gm "We'll be right here."
+
+    "You smile back."
+
+    p "Okay."
+
+    "Grandma returns to her vegetables."
+
+    "Then she speaks again."
+
+    gm "By the way..."
+
+    gm "That boy hasn't come over as often lately."
+
+    "You nearly drop your vegetable."
+
+    p "What boy?"
+
+    gm "Oh, don't pretend."
+
+    gm "The one who's been eating my cooking since he was little."
+
+    p "Ren?"
+
+    gm "Who else?"
+
+    "You shrug."
+
+    p "He's probably busy."
+
+    gm "Maybe."
+
+    "Grandma gives you a knowing smile."
+
+    gm "You two haven't argued recently either."
+
+    p "Isn't that a good thing?"
+
+    gm "The house is almost too quiet."
+
+    p "GRANDMA!"
+
+    "She chuckles."
+
+    gm "I'm only teasing."
+
+    "Then her expression softens."
+
+    gm "You know..."
+
+    gm "If there's something important you want to tell someone, you shouldn't always wait for the perfect moment."
+
+    "You pause."
+
+    p "...Why are you telling me that?"
+
+    gm "Just something an old woman has learned."
+
+    "She returns to her cooking."
+
+    "You stare at the vegetables in your hands."
+
+    "For some reason, you can't stop thinking about Ren."
+
+    scene black
+    with dissolve
+
+    centered "ONE MONTH LEFT"
+
+    "The calendar on your desk has more crossed-out dates than empty ones."
+
+    "Your suitcase is sitting in the corner."
+
+    "Your parents have been calling regularly."
+
+    "Everything is becoming real."
+
+    "And Ren has started doing something strange."
+
+    "He keeps asking you to hang out."
+
+    "Not that it's unusual for him."
+
+    "You've spent practically every afternoon together since childhood."
+
+    "But recently..."
+
+    b "Hey."
+
+    p "What?"
+
+    b "Wanna go somewhere after school?"
+
+    p "Where?"
+
+    b "Anywhere."
+
+    p "...Anywhere?"
+
+    b "Yeah."
+
+    "He shrugs."
+
+    b "We haven't gone to the park in ages."
+
+    p "The park?"
+
+    p "What are we, ten?"
+
+    b "You still act ten."
+
+    p "EXCUSE ME?"
+
+    "He laughs."
+
+    b "Come on."
+
+    b "Just for a bit?"
+
+    "You look at him."
+
+    "He's smiling."
+
+    "But something about the way he asks makes it difficult to refuse."
+
+    menu:
+        "How do you respond?"
+
+        "Fine, but you're buying snacks.":
+            p "Fine."
+
+            p "But you're buying snacks."
+
+            b "Again?!"
+
+            p "Consider it payment for my company."
+
+            b "You're expensive."
+
+        "You really can't survive without me, huh?":
+            p "You really can't survive without me, huh?"
+
+            b "Obviously."
+
+            "He says it without hesitation."
+
+            "You blink."
+
+            b "Who's gonna remind you to bring your pencil case?"
+
+            p "OH, SHUT UP."
+
+        "Sure. I'd like that.":
+            p "Sure."
+
+            p "I'd like that."
+
+            "He pauses."
+
+            b "...Really?"
+
+            p "Why do you sound so surprised?"
+
+            b "No reason."
+
+            "He smiles."
+
+            b "Let's go."
+
+    scene black
+    with dissolve
+
+    centered "THE LITTLE PARK"
+
+    "The park looks the same as it always has."
+
+    "The old tree stands beside the swings."
+
+    "The afternoon breeze carries the smell of freshly cut grass."
+
+    "You sit on a bench."
+
+    "Ren drops down beside you."
+
+    b "Remember when you got stuck in that tree?"
+
+    p "DON'T."
+
+    b "You were crying so hard."
+
+    p "I WAS NOT!"
+
+    b "You kept yelling for your grandma."
+
+    p "I WAS EIGHT!"
+
+    "He bursts out laughing."
+
+    "You nudge him with your elbow."
+
+    p "You're never letting that go, are you?"
+
+    b "Nope."
+
+    "You roll your eyes."
+
+    "But you can't stop smiling."
+
+    "For a while, you sit together in comfortable silence."
+
+    "A few children run past the swings."
+
+    "One of them trips."
+
+    "The others help him up."
+
+    "You watch them disappear around the corner."
+
+    b "Hey."
+
+    p "Hm?"
+
+    b "Do you think you'll miss this place?"
+
+    "You look at him."
+
+    p "Of course."
+
+    b "Even the boring stuff?"
+
+    p "Especially the boring stuff."
+
+    "He smiles faintly."
+
+    b "Yeah."
+
+    "Another silence."
+
+    b "What about..."
+
+    "He stops."
+
+    p "What?"
+
+    b "Nothing."
+
+    p "Ren."
+
+    b "What?"
+
+    p "You can't just start a sentence and stop."
+
+    b "I can do whatever I want."
+
+    p "You're impossible."
+
+    "He laughs."
+
+    "But it sounds a little forced."
+
+    b "I was just wondering..."
+
+    b "Do you think we'll still talk after you leave?"
+
+    "You turn toward him."
+
+    p "What kind of question is that?"
+
+    b "A normal one?"
+
+    p "Of course we will."
+
+    "He looks down."
+
+    b "Yeah?"
+
+    p "Obviously."
+
+    "You smile."
+
+    p "You think you're getting rid of me that easily?"
+
+    "He laughs."
+
+    b "Wouldn't dream of it."
+
+    "You look away."
+
+    "Your heart is beating strangely fast."
+
+    "There's something you want to say."
+
+    "Something you've been trying very hard not to think about."
+
+    "You like him."
+
+    "Not just as your best friend."
+
+    "And you think..."
+
+    "Maybe you've liked him for a while."
+
+    "But what if you're wrong?"
+
+    "What if he doesn't feel the same?"
+
+    "You have one month left."
+
+    "Do you really want to spend it making things awkward?"
+
+    menu:
+        "What do you say?"
+
+        "Promise you won't forget me.":
+            p "Promise you won't forget me."
+
+            "He looks at you."
+
+            b "Seriously?"
+
+            p "What?"
+
+            b "We've known each other forever."
+
+            "He smiles."
+
+            b "How could I forget you?"
+
+        "I'm going to miss hanging out with you.":
+            p "I'm going to miss hanging out with you."
+
+            "He pauses."
+
+            b "...Yeah."
+
+            b "Me too."
+
+            "For once, neither of you makes a joke."
+
+        "You better answer my messages.":
+            p "You better answer my messages."
+
+            b "Wow."
+
+            b "Already threatening me?"
+
+            p "I'm serious!"
+
+            b "Okay, okay."
+
+            "He holds up his hands."
+
+            b "I'll answer."
+
+    "Ren leans back against the bench."
+
+    "He looks up at the sky."
+
+    b "You know..."
+
+    b "I'm really happy for you."
+
+    "You glance at him."
+
+    b "About moving."
+
+    b "You finally get to live with your parents."
+
+    "He smiles."
+
+    b "That's a good thing."
+
+    p "...Yeah."
+
+    "You look down."
+
+    p "But I'm going to miss you guys."
+
+    "He turns toward you."
+
+    b "We'll miss you too."
+
+    "You smile faintly."
+
+    p "Even you?"
+
+    b "Especially me."
+
+    "Your breath catches."
+
+    "He seems to realise what he's said."
+
+    b "I mean—"
+
+    b "Who's going to argue with me every morning?"
+
+    p "..."
+
+    "You laugh."
+
+    p "You'll find someone."
+
+    "He doesn't answer immediately."
+
+    b "...Maybe."
+
+    "You both look away."
+
+    "The sun is beginning to set."
+
+    "You wish the afternoon would last a little longer."
+
+    scene black
+    with fade
+
+    centered "ONE WEEK LEFT"
+
+    "Your room is filled with half-packed boxes."
+
+    "Grandma keeps checking whether you've forgotten anything."
+
+    "Grandpa insists on weighing your suitcase."
+
+    "Your parents call to remind you about your travel documents."
+
+    "And your friends..."
+
+    "Your friends are planning something."
+
+    "They're being terribly obvious about it."
+
+    m "DON'T MAKE PLANS FOR FRIDAY."
+
+    p "Why?"
+
+    m "NO REASON."
+
+    p "Mina."
+
+    m "JUST DON'T."
+
+    "You laugh."
+
+    "You already know it's a farewell gathering."
+
+    "Kai accidentally mentioned it yesterday."
+
+    "But you pretend not to know."
+
+    "Because they're trying so hard."
+
+    "And because you want to enjoy every moment."
+
+    scene black
+    with dissolve
+
+    centered "THE NIGHT BEFORE"
+
+    "It's late."
+
+    "The house is quiet."
+
+    "Your suitcase is almost packed."
+
+    "Tomorrow, you'll be meeting everyone for the farewell gathering."
+
+    "And a few days after that..."
+
+    "You'll be leaving."
+
+    "You sit at your desk."
+
+    "Your phone lies beside an open notebook."
+
+    "Ren's contact is at the top of your recent messages."
+
+    "You open the conversation."
+
+    "The last message is from him."
+
+    b "don't be late tomorrow idiot"
+
+    "You smile."
+
+    p "You're one to talk."
+
+    "You begin typing."
+
+    "Then stop."
+
+    "There are words you've been carrying around for months."
+
+    "Maybe longer."
+
+    "Three simple words."
+
+    "{i}I like you.{/i}"
+
+    "You stare at the empty message box."
+
+    "Your fingers hover over the keyboard."
+
+    menu:
+        "What do you do?"
+
+        "Type the confession, but don't send it.":
+            "You type the words."
+
+            "{i}I think I like you.{/i}"
+
+            "You stare at them."
+
+            "Then slowly erase each letter."
+
+            "The message box becomes empty again."
+
+        "Decide to tell him tomorrow.":
+            "You close the conversation."
+
+            "Tomorrow."
+
+            "You'll tell him tomorrow."
+
+            "You repeat the promise to yourself."
+
+            "Maybe saying it enough times will make you brave."
+
+        "Send him a simple goodnight.":
+            "You type a message."
+
+            "You: goodnight idiot"
+
+            "A moment later, your phone lights up."
+
+            b "night idiot"
+
+            "You smile."
+
+            "It's not what you wanted to say."
+
+            "But it's something."
+
+    "You put your phone down."
+
+    "Outside, the night is still."
+
+    "You look around your room."
+
+    "The shelves are emptier now."
+
+    "Your favourite books are packed away."
+
+    "The photographs on your desk have been taken down."
+
+    "Everything is slowly becoming a memory."
+
+    "You lie down."
+
+    "Tomorrow, you'll see everyone."
+
+    "Tomorrow, you'll laugh."
+
+    "Tomorrow, you'll say goodbye."
+
+    "And maybe..."
+
+    "Maybe you'll finally be brave enough to tell him."
+
+    scene black
+    with fade
+
+    centered "End of Chapter 5"
 
     return
+
 
