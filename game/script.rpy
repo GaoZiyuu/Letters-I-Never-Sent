@@ -5971,9 +5971,946 @@ label chapter_7:
     scene black
     with fade
 
-    centered "End of Chapter 7"
+    jump epilogue
+
+
+# Epilogue - If We Meet Again
+
+label epilogue:
+
+    scene black
+    with fade
+
+    centered "EPILOGUE"
+    centered "If We Meet Again"
+
+    "The next afternoon."
+
+    "You arrive at the little drink shop five minutes early."
+
+    "Which is ridiculous."
+
+    "You've been here countless times."
+
+    "And you've known Ren practically your entire life."
+
+    "So why are you nervous?"
+
+    p "It's just bubble tea."
+
+    p "Literally just bubble tea."
+
+    b "Talking to yourself already?"
+
+    "You nearly jump."
+
+    p "REN!"
+
+    "He bursts out laughing."
+
+    b "Good afternoon to you too."
+
+    "You turn toward him."
+
+    "He's dressed casually, with his hands tucked into his pockets."
+
+    "For a moment, you find yourself studying his face."
+
+    "Yesterday, you'd been too surprised to notice much."
+
+    "He really has changed."
+
+    "His features are sharper."
+
+    "His voice is deeper."
+
+    "And there's something calmer about him now."
+
+    "But when he smiles..."
+
+    "It's still Ren."
+
+    b "What?"
+
+    p "Nothing."
+
+    b "You're staring."
+
+    p "I AM NOT!"
+
+    b "Wow."
+
+    b "Eight years and you still can't admit it."
+
+    "He grins."
+
+    "You roll your eyes."
+
+    p "Do you want your bubble tea or not?"
+
+    b "YES."
+
+    "He follows you inside."
+
+    scene black
+    with dissolve
+
+    centered "ONE BUBBLE TEA, EIGHT YEARS LATE"
+
+    "The little shop is quiet."
+
+    "You order your old favourite."
+
+    "Ren spends far too long looking at the menu."
+
+    p "Seriously?"
+
+    p "You used to order the same thing every time."
+
+    b "People change."
+
+    p "Oh?"
+
+    b "I've become a sophisticated adult."
+
+    "He studies the menu again."
+
+    b "...I'll have my usual."
+
+    p "HAHAHAHA!"
+
+    b "SHUT UP!"
+
+    "You laugh so hard that the cashier gives you a curious look."
+
+    "Eventually, you settle at a table beside the window."
+
+    "Two drinks sit between you."
+
+    "For a moment, you simply look at them."
+
+    b "Well?"
+
+    p "Well what?"
+
+    b "Aren't you going to say it?"
+
+    p "Say what?"
+
+    "He grins."
+
+    b "Your debt has finally been paid."
+
+    "You stare at him."
+
+    p "You are unbelievable."
+
+    b "Thank you."
+
+    "You both laugh."
+
+    "The conversation begins with ordinary things."
+
+    "Work."
+
+    "University."
+
+    "Friends."
+
+    "The strange experience of becoming an adult."
+
+    "You learn that Ren lives in the city now."
+
+    "He likes his job, although he complains about the commute."
+
+    "He's learned to cook a few decent meals."
+
+    "He even has a houseplant."
+
+    p "YOU have a plant?"
+
+    b "Why is that so surprising?"
+
+    p "You killed our class plant."
+
+    b "THAT WAS AN ACCIDENT."
+
+    p "You forgot to water it for a month!"
+
+    b "I WAS BUSY!"
+
+    "You laugh."
+
+    "And he laughs with you."
+
+    "But after a while, the conversation becomes quieter."
+
+    b "You know..."
+
+    b "I'm glad we did this."
+
+    "You look up."
+
+    p "Me too."
+
+    b "Yesterday was a bit..."
+
+    "He pauses."
+
+    b "Unexpected."
+
+    p "That's one way to put it."
+
+    "He smiles."
+
+    "Then looks down at his drink."
+
+    b "I really didn't think you'd ever find that letter."
+
+    "You pause."
+
+    p "...Really?"
+
+    b "Well, at first I did."
+
+    b "I figured you'd find it when you opened the frame."
+
+    p "Again."
+
+    p "WHY WOULD I TAKE APART A PICTURE FRAME?"
+
+    b "I KNOW, I KNOW!"
+
+    "He laughs."
+
+    "Then grows quiet."
+
+    b "But after a while..."
+
+    b "I figured maybe it was better that way."
+
+    "You look at him."
+
+    p "Why?"
+
+    "He thinks for a moment."
+
+    b "I was sixteen."
+
+    b "I liked my best friend."
+
+    b "And she was moving halfway across the world."
+
+    "He gives a small, embarrassed smile."
+
+    b "I didn't exactly have a plan."
+
+    "You lower your eyes."
+
+    b "I wanted you to know."
+
+    b "But I was scared you'd feel uncomfortable."
+
+    b "Or that things would change between us."
+
+    p "..."
+
+    b "So I wrote it down."
+
+    b "And then I hid it somewhere stupid."
+
+    "You laugh softly."
+
+    p "Very stupid."
+
+    b "Extremely stupid."
+
+    "He smiles."
+
+    "For a moment, you both sit quietly."
+
+    "Then you take a breath."
+
+    p "Ren."
+
+    b "Hm?"
+
+    p "There's something I never told you either."
+
+    "He looks at you."
+
+    "Your heart is beating faster."
+
+    "It's strange."
+
+    "You're twenty-four."
+
+    "You've given presentations."
+
+    "Gone through job interviews."
+
+    "Had difficult conversations with people you barely knew."
+
+    "And somehow, this feels harder."
+
+    "You remember Grandma's words."
+
+    "{i}If there's something important you want to tell someone, you shouldn't always wait for the perfect moment.{/i}"
+
+    "You look at Ren."
+
+    p "I liked you too."
+
+    "He goes completely still."
+
+    b "..."
+
+    b "...What?"
+
+    "You laugh nervously."
+
+    p "Back then."
+
+    p "I liked you."
+
+    p "A lot, actually."
+
+    "He stares at you."
+
+    "Then lets out a disbelieving laugh."
+
+    b "You're joking."
+
+    p "I'm not!"
+
+    b "Seriously?"
+
+    p "Seriously."
+
+    "He covers his face."
+
+    b "Oh my god."
+
+    p "What?"
+
+    b "We're actually idiots."
+
+    "You burst out laughing."
+
+    p "I KNOW!"
+
+    "He shakes his head."
+
+    b "All those years..."
+
+    p "Yep."
+
+    b "And neither of us said anything."
+
+    p "Nope."
+
+    "He laughs again."
+
+    "But there's something a little sad about it."
+
+    b "I really thought you only saw me as a friend."
+
+    "You look down."
+
+    p "I thought the same thing."
+
+    "You hesitate."
+
+    p "And I was scared."
+
+    p "We had the same friends."
+
+    p "We'd known each other forever."
+
+    p "I didn't want to make everything awkward."
+
+    "Ren nods slowly."
+
+    b "Yeah."
+
+    b "Me too."
+
+    "You look at each other."
+
+    "Then begin laughing again."
+
+    "Not because it's particularly funny."
+
+    "But because there's nothing else to do."
+
+    "Eight years ago, these words felt impossible."
+
+    "Now they're sitting between you."
+
+    "Finally spoken."
+
+    scene black
+    with dissolve
+
+    centered "THE THINGS WE NEVER SAID"
+
+    "The afternoon sunlight shifts across the table."
+
+    "Your drinks are nearly empty."
+
+    "Neither of you seems ready to leave."
+
+    b "Can I tell you something?"
+
+    p "Sure."
+
+    b "For a while after you moved..."
+
+    "He pauses."
+
+    b "I kept expecting you to come back."
+
+    "You look at him."
+
+    b "Not permanently."
+
+    b "Just for a holiday or something."
+
+    b "I'd see something stupid and think..."
+
+    b "Oh, she'd laugh at that."
+
+    "He smiles faintly."
+
+    b "Then I'd remember you weren't here."
+
+    p "..."
+
+    b "But eventually, things changed."
+
+    b "We graduated."
+
+    b "Went to university."
+
+    b "Started working."
+
+    "He looks toward the window."
+
+    b "Life just kept going."
+
+    "You nod."
+
+    p "Yeah."
+
+    p "It did."
+
+    "You think about the years you spent overseas."
+
+    "The friends you made."
+
+    "The places you visited."
+
+    "The person you've become."
+
+    "You weren't unhappy."
+
+    "You had a good life."
+
+    "And somehow, knowing that doesn't make these memories any less precious."
+
+    p "I used to think about you a lot."
+
+    "Ren turns toward you."
+
+    p "Whenever something reminded me of home."
+
+    p "I always wondered how everyone was doing."
+
+    "You smile."
+
+    p "But then I'd get busy."
+
+    p "And forget to message."
+
+    p "And after a while..."
+
+    b "It felt weird to suddenly say hello?"
+
+    "You look up."
+
+    p "...Yeah."
+
+    "He laughs softly."
+
+    b "Same."
+
+    "You sit together in silence."
+
+    "Not an uncomfortable silence."
+
+    "Just two people making peace with the years they missed."
+
+    b "Hey."
+
+    p "Hm?"
+
+    b "For what it's worth..."
+
+    b "I'm glad you were happy over there."
+
+    "You smile."
+
+    p "I was."
+
+    p "And I'm glad you were happy too."
+
+    "He smiles back."
+
+    b "Yeah."
+
+    b "I was."
+
+    "You glance at the empty cups."
+
+    "For a moment, you think about how strange life can be."
+
+    "Eight years ago, you were terrified of saying three simple words."
+
+    "Today, you finally said them."
+
+    "And the world didn't end."
+
+    "Outside, the afternoon is beginning to fade."
+
+    b "So..."
+
+    b "What happens now?"
+
+    "You look at him."
+
+    "It's a simple question."
+
+    "But this time, you don't want to hide behind a joke."
+
+    "The past has already happened."
+
+    "You can't change the years you've missed."
+
+    "But the future..."
+
+    "That's still yours to decide."
+
+    menu:
+        "What do you want to say?"
+
+        "Maybe we could get to know each other again.":
+            jump ending_romance
+
+        "I'm glad we had those years together.":
+            jump ending_bittersweet
+
+
+# Ending 1 - A New Beginning
+
+label ending_romance:
+
+    scene black
+    with dissolve
+
+    centered "ENDING 1"
+    centered "A New Beginning"
+
+    "You take a breath."
+
+    p "Maybe..."
+
+    p "We could get to know each other again."
+
+    "Ren looks at you."
+
+    b "...Again?"
+
+    p "Yeah."
+
+    p "I mean, properly."
+
+    "You laugh nervously."
+
+    p "We're not sixteen anymore."
+
+    p "There's so much we don't know about each other."
+
+    p "And I don't want to pretend we can just go back to how things were."
+
+    "You pause."
+
+    p "But I'd like to know who you are now."
+
+    "Ren studies your face for a moment."
+
+    "Then smiles."
+
+    b "I'd like that too."
+
+    "Your heart gives a small, unexpected jump."
+
+    p "...Really?"
+
+    b "Really."
+
+    "He laughs."
+
+    b "You know..."
+
+    b "I was hoping we could hang out again before you leave."
+
+    p "Oh?"
+
+    b "Yeah."
+
+    b "Maybe go somewhere."
+
+    b "Just the two of us."
+
+    "He pauses."
+
+    b "If you want."
+
+    "You look at him."
+
+    "For a brief moment, you remember another afternoon."
+
+    "A boy asking if you'd like to spend time together."
+
+    "A girl pretending she wasn't interested."
+
+    "Two people too afraid to be honest."
+
+    "You smile."
+
+    p "I'd love to."
+
+    "Ren smiles back."
+
+    b "Good."
+
+    b "Then it's a date?"
+
+    "He seems to realise what he's said."
+
+    b "I mean—"
+
+    b "Only if—"
+
+    p "Ren."
+
+    b "...Yeah?"
+
+    p "It's a date."
+
+    "He stares at you."
+
+    "Then laughs."
+
+    b "Wow."
+
+    b "You've gotten brave."
+
+    p "Someone has to be."
+
+    "You both laugh."
+
+    scene black
+    with dissolve
+
+    centered "SOME TIME LATER"
+
+    "The rest of your visit passes slowly."
+
+    "You help Grandpa around the house."
+
+    "Spend afternoons with your old friends."
+
+    "And sometimes..."
+
+    "You meet Ren."
+
+    "You discover that he likes quiet cafés now."
+
+    "That he listens to music you've never heard."
+
+    "That he still hates waking up early."
+
+    "And that he has somehow become even worse at drawing cats."
+
+    "He learns about your life too."
+
+    "Your favourite places overseas."
+
+    "The things that make you nervous."
+
+    "The dreams you haven't quite figured out yet."
+
+    "Sometimes, your conversations are awkward."
+
+    "Sometimes, you run out of things to say."
+
+    "But then one of you makes a terrible joke."
+
+    "And somehow, it becomes easy again."
+
+    "You don't know what the future will look like."
+
+    "You live in different places."
+
+    "You have different responsibilities."
+
+    "There will be things to figure out."
+
+    "But this time..."
+
+    "Neither of you is pretending not to care."
+
+    scene black
+    with fade
+
+    "On the last afternoon of your visit, Ren walks you home."
+
+    "Just like he used to."
+
+    b "Hey."
+
+    p "Hm?"
+
+    b "Next time you come back..."
+
+    b "Let's go somewhere new."
+
+    "You smile."
+
+    p "Sure."
+
+    p "But you have to visit me too."
+
+    b "Deal."
+
+    "He holds out his little finger."
+
+    "You laugh."
+
+    p "Seriously?"
+
+    b "What?"
+
+    b "A promise is a promise."
+
+    "You look at his hand."
+
+    "Then hook your little finger around his."
+
+    p "Promise."
+
+    "This time, you understand that promises take effort."
+
+    "That distance doesn't disappear just because you want it to."
+
+    "But you're both willing to try."
+
+    "And maybe..."
+
+    "That's where a new love story begins."
+
+    scene black
+    with fade
+
+    centered "A NEW BEGINNING"
+
+    centered "Some love stories begin twice."
 
     return
+
+
+# Ending 2 - The Things We Keep
+
+label ending_bittersweet:
+
+    scene black
+    with dissolve
+
+    centered "ENDING 2"
+    centered "The Things We Keep"
+
+    "You take a breath."
+
+    p "I'm glad we had those years together."
+
+    "Ren looks at you."
+
+    "Then smiles."
+
+    b "...Yeah."
+
+    b "Me too."
+
+    "You look out the window."
+
+    p "For a long time, I wondered what would've happened if I'd stayed."
+
+    p "Or if I'd told you how I felt."
+
+    "You laugh softly."
+
+    p "I guess we'll never know."
+
+    "Ren thinks for a moment."
+
+    b "Maybe not."
+
+    "He looks at you."
+
+    b "But I don't think that means things would've been better."
+
+    "You turn toward him."
+
+    b "We were happy back then."
+
+    b "And we found other things that made us happy afterwards."
+
+    "He smiles."
+
+    b "That's not such a bad thing, right?"
+
+    "You look at him."
+
+    "Then smile."
+
+    p "No."
+
+    p "I guess it isn't."
+
+    "For a while, neither of you speaks."
+
+    "You think about the little town."
+
+    "The road to school."
+
+    "The afternoons in Grandma's kitchen."
+
+    "The countless arguments."
+
+    "The laughter."
+
+    "And the boy who once hid a confession behind a photograph."
+
+    p "Thank you, Ren."
+
+    b "Hm?"
+
+    p "For everything."
+
+    "He looks almost embarrassed."
+
+    b "You're making it sound like a farewell speech."
+
+    p "Maybe it is."
+
+    "You laugh."
+
+    p "A proper one this time."
+
+    "Ren smiles."
+
+    b "Then..."
+
+    b "Thank you too."
+
+    "He pauses."
+
+    b "I'm really glad we grew up together."
+
+    "Your chest tightens."
+
+    "But this time, it doesn't hurt quite so much."
+
+    p "Me too."
+
+    scene black
+    with dissolve
+
+    centered "SOME TIME LATER"
+
+    "The rest of your visit passes peacefully."
+
+    "You help Grandpa sort through the house."
+
+    "Spend time with Mina, Kai, and Yuna."
+
+    "And begin discovering new things about the town you once called home."
+
+    "Before you leave, you meet Ren again."
+
+    "Not for a confession."
+
+    "Not for a second chance."
+
+    "Just to catch up."
+
+    "You laugh about old memories."
+
+    "Exchange stories about your lives."
+
+    "And promise to say hello now and then."
+
+    "This time, without expecting everything to stay the same."
+
+    scene black
+    with fade
+
+    "On the last evening of your visit, you sit alone in your childhood bedroom."
+
+    "The framed photograph rests on your desk."
+
+    "Beside it lies the letter."
+
+    "You pick it up one last time."
+
+    "{i}I hope you'll have a life full of things that make you smile.{/i}"
+
+    "{i}I think knowing that would make me happy too.{/i}"
+
+    "You smile."
+
+    p "I did."
+
+    p "I really did."
+
+    "You carefully fold the letter."
+
+    "Then place it behind the photograph again."
+
+    "Not because you want to forget."
+
+    "But because you've finally made peace with the words inside it."
+
+    "You set the frame gently into your suitcase."
+
+    "A little piece of home."
+
+    "A memory of people who once meant everything to you."
+
+    "And proof that, once upon a time..."
+
+    "You were loved."
+
+    scene black
+    with fade
+
+    centered "THE THINGS WE KEEP"
+
+    centered "Not every love story needs forever to be beautiful."
+
+    return
+
 
 
 
