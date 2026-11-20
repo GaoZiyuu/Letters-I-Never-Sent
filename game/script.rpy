@@ -6,6 +6,9 @@ define p = Character("You", color="#c48b9f")
 define g = Character("Grandpa", color="#a8b88a")
 define b = Character("Ren", color="#88a8c4")
 define gm = Character("Grandma", color="#d8a77d")
+define m = Character("Mina", color="#e5a1b0")
+define k = Character("Kai", color="#a9b7d8")
+define y = Character("Yuna", color="#b8a4d4")
 
 label start:
 
@@ -1085,9 +1088,1256 @@ label chapter_1_dinner:
     scene black
     with fade
 
+    jump chapter_2
+
+    # Chapter 2 - Just Friends, Obviously
+
+label chapter_2:
+
+    scene black
+    with fade
+
     centered "CHAPTER 2"
     centered "Just Friends, Obviously"
 
-    "To be continued..."
+    "The ringing of a school bell echoes through the hallway."
+
+    "You hear chairs scraping against the floor."
+
+    "Someone is laughing."
+
+    "And somewhere nearby, a familiar voice calls your name."
+
+    b "Hey."
+
+    b "Hey!"
+
+    b "Are you even listening?"
+
+    p "Huh?"
+
+    b "Finally. Welcome back to Earth."
+
+    "You blink."
+
+    "Sunlight streams through the classroom windows."
+
+    "An unfinished worksheet lies on your desk."
+
+    "You're wearing your old school uniform."
+
+    "And Ren is sitting in the chair beside you."
+
+    "Fifteen."
+
+    "You're fifteen again."
+
+    "Or at least, that's how the memory feels."
+
+    b "You've been staring at that question for ten minutes."
+
+    p "I'm thinking."
+
+    b "About what?"
+
+    p "How annoying you are."
+
+    b "Wow. So you're thinking about me?"
+
+    p "DON'T MAKE IT WEIRD!"
+
+    "He laughs."
+
+    "You grab your pencil and pretend to concentrate."
+
+    "For some reason, his grin bothers you more than it used to."
+
+    scene black
+    with dissolve
+
+    centered "LUNCH BREAK"
+
+    "By lunchtime, your usual group has gathered around two pushed-together desks."
+
+    "Mina is complaining about the upcoming exams."
+
+    m "I'm going to fail."
+
+    y "You said that last time."
+
+    m "And I almost did!"
+
+    k "You got eighty-seven."
+
+    m "Exactly. Almost."
+
+    k "I hate all of you."
+
+    "Everyone laughs."
+
+    "Ren places a drink on your desk."
+
+    b "Here."
+
+    p "Huh?"
+
+    b "You said you wanted one."
+
+    p "I did?"
+
+    b "This morning."
+
+    "You stare at the bottle."
+
+    "It's your favourite."
+
+    p "...Oh."
+
+    p "Thanks."
+
+    m "Awwww."
+
+    "You freeze."
+
+    p "What?"
+
+    m "Nothing."
+
+    "Her grin says otherwise."
+
+    k "Actually, I've been meaning to ask..."
+
+    k "Are you two dating or something?"
+
+    p "WHAT?!"
+
+    b "Where did that come from?"
+
+    k "I mean, come on."
+
+    k "You walk to school together."
+
+    k "You eat together."
+
+    k "You're practically attached at the hip."
+
+    p "We've known each other since we were kids!"
+
+    k "And?"
+
+    p "AND WE'RE JUST FRIENDS!"
+
+    "Your voice comes out louder than intended."
+
+    "For a brief moment, everyone goes quiet."
+
+    "Then Ren leans back in his chair."
+
+    b "Yeah. Obviously."
+
+    "He says it lightly."
+
+    "Almost too lightly."
+
+    "You look away."
+
+    "For some reason, hearing him agree doesn't feel as reassuring as it should."
+
+    y "Anyway, did anyone finish the homework?"
+
+    k "YUNA. PLEASE."
+
+    "The conversation moves on."
+
+    "But your thoughts don't."
+
+    menu:
+        "What are you thinking?"
+
+        "Why would they even suggest that?":
+            "It's ridiculous."
+
+            "You've been friends forever."
+
+            "People really will make anything weird."
+
+            "So why are your cheeks still warm?"
+
+        "He agreed pretty quickly...":
+            "Of course he agreed."
+
+            "What else was he supposed to say?"
+
+            "Still, you can't help replaying his answer."
+
+            "{i}Yeah. Obviously.{/i}"
+
+        "Maybe I overreacted.":
+            "You probably didn't need to shout."
+
+            "Everyone was only joking."
+
+            "You glance at Ren."
+
+            "He's laughing at something Kai said."
+
+            "He seems completely fine."
+
+            "Somehow, that makes you feel worse."
+
+    scene black
+    with dissolve
+
+    centered "AFTER SCHOOL"
+
+    "The last bell rings."
+
+    "Students spill into the hallway."
+
+    "Mina has club activities."
+
+    "Kai is heading to the library."
+
+    "Yuna has already disappeared to return a borrowed book."
+
+    "Which leaves you and Ren."
+
+    "As usual."
+
+    b "Ready?"
+
+    p "Give me a second."
+
+    "You shove your books into your bag."
+
+    "Ren waits beside the door."
+
+    "He's gotten taller recently."
+
+    "You hadn't really noticed when it happened."
+
+    "Or maybe you'd noticed and simply refused to acknowledge it."
+
+    b "What?"
+
+    p "Huh?"
+
+    b "You're staring."
+
+    p "I AM NOT!"
+
+    b "Okay, okay."
+
+    "He raises his hands in surrender."
+
+    b "Didn't know I was that handsome."
+
+    p "In your dreams."
+
+    b "You're so mean to me."
+
+    p "You deserve it."
+
+    "He laughs."
+
+    "You turn away before he can see your smile."
+
+    scene black
+    with dissolve
+
+    centered "THE WALK HOME"
+
+    "The afternoon sun paints the streets gold."
+
+    "The two of you walk along the same route you've taken for years."
+
+    "Past the convenience store."
+
+    "Past the little park."
+
+    "Past the old vending machine that only works when it feels like it."
+
+    b "Hey."
+
+    p "What?"
+
+    b "About earlier..."
+
+    "You glance at him."
+
+    p "Earlier?"
+
+    b "At lunch."
+
+    "Your stomach does something strange."
+
+    p "Oh."
+
+    b "Don't mind Kai."
+
+    b "He's an idiot."
+
+    p "I know."
+
+    "You kick a small pebble along the pavement."
+
+    p "It's not like I care."
+
+    b "Yeah."
+
+    "There's a pause."
+
+    b "Still."
+
+    "He scratches the back of his neck."
+
+    b "I hope you didn't feel uncomfortable."
+
+    p "..."
+
+    "You look at him."
+
+    "He's not smiling now."
+
+    "For once, he seems genuinely unsure of what to say."
+
+    menu:
+        "What do you say?"
+
+        "It's fine. They're always like that.":
+            p "It's fine."
+
+            p "You know how they are."
+
+            b "Yeah."
+
+            "He smiles faintly."
+
+            b "Guess I was overthinking."
+
+        "Why? Were you uncomfortable?":
+            p "Why?"
+
+            p "Were you uncomfortable?"
+
+            b "Me?"
+
+            b "Nah."
+
+            "He looks away."
+
+            b "Just thought you might've been."
+
+        "You didn't have to agree so quickly.":
+            p "You didn't have to agree so quickly, you know."
+
+            b "Huh?"
+
+            "You immediately regret opening your mouth."
+
+            p "I MEAN—"
+
+            p "You made it sound like being friends with me is embarrassing!"
+
+            b "What?!"
+
+            b "That's not what I meant!"
+
+            "He looks genuinely horrified."
+
+            b "You're literally my favourite person to annoy."
+
+            p "That's not a compliment!"
+
+            b "It is to me."
+
+    "For a while, neither of you speaks."
+
+    "Then Ren nudges your shoulder lightly."
+
+    b "Hey."
+
+    p "What now?"
+
+    b "Wanna get bubble tea?"
+
+    p "Again?"
+
+    b "My treat."
+
+    p "..."
+
+    p "What's the catch?"
+
+    b "Why does there have to be a catch?"
+
+    p "Because it's you."
+
+    b "Wow."
+
+    b "I buy you drinks all the time!"
+
+    p "And you remind me about it for the next three months!"
+
+    "He laughs."
+
+    b "Fair point."
+
+    "You reach the little shop at the corner."
+
+    "The same one you've visited together since childhood."
+
+    "Ren opens the door and holds it for you."
+
+    b "After you, Your Majesty."
+
+    p "Thank you, peasant."
+
+    b "I take it back."
+
+    "You laugh."
+
+    "And for a moment, everything feels normal again."
+
+    "Just like it always has."
+
+    "Except..."
+
+    "When he leans over to look at the menu beside you, your heart begins to race."
+
+    "His shoulder brushes yours."
+
+    "It's nothing."
+
+    "You've stood this close a thousand times."
+
+    "So why does it suddenly feel different?"
+
+    scene black
+    with fade
+
+    "The memory begins to blur."
+
+    "The little shop."
+
+    "The sunlight."
+
+    "His voice."
+
+    "You try to hold on to the moment."
+
+    "But the sounds around you are already fading."
+
+    "And somewhere, a voice calls your name."
+
+    b "Hey."
+
+    b "You okay?"
+
+    "You turn."
+
+    "For a moment, he's standing right there."
+
+    "Fifteen years old."
+
+    "Smiling at you."
+
+    "Exactly as you remember him."
+
+    p "Ren...?"
+
+    "He tilts his head."
+
+    b "Yeah?"
+
+    "You open your mouth."
+
+    "There are so many things you want to say."
+
+    "But before you can speak..."
+
+    scene black
+    with fade
+
+    "You wake up."
+
+    "Morning light filters through the curtains."
+
+    "For a moment, you don't recognise the room."
+
+    "Then you see the photograph on your desk."
+
+    "And the folded letter beside it."
+
+    "Right."
+
+    "You're twenty-four."
+
+    "Not fifteen."
+
+    "That afternoon happened nine years ago."
+
+    "You lie still for a moment."
+
+    p "...What a dream."
+
+    "You turn toward the photograph."
+
+    p "You really were annoying."
+
+    "A small smile forms on your lips."
+
+    p "Still are, probably."
+
+    "You sit up."
+
+    "Somewhere downstairs, Grandpa is moving around the kitchen."
+
+    "A new day is beginning."
+
+    "And for the first time in years..."
+
+    "You find yourself wondering what it would be like to see Ren again."
+
+    scene black
+    with fade
+
+    jump chapter_3
+
+
+# Chapter 3 - The Little Things
+
+label chapter_3:
+
+    scene black
+    with fade
+
+    centered "CHAPTER 3"
+    centered "The Little Things"
+
+    "By the time you head downstairs, the house is already filled with the smell of breakfast."
+
+    "Grandpa is standing in the kitchen."
+
+    "He's staring rather seriously at a frying pan."
+
+    p "Morning, Grandpa."
+
+    g "Morning."
+
+    p "...What are you doing?"
+
+    g "Cooking."
+
+    p "I can see that."
+
+    g "Then why'd you ask?"
+
+    "You laugh."
+
+    "Somehow, that sounds terribly familiar."
+
+    "You peer into the pan."
+
+    p "Grandpa..."
+
+    p "Are those eggs?"
+
+    g "Obviously."
+
+    p "Why are they grey?"
+
+    g "They're not grey!"
+
+    "You look at him."
+
+    "He looks at you."
+
+    "Neither of you says anything."
+
+    g "...Toast?"
+
+    p "Toast sounds good."
+
+    "The two of you burst out laughing."
+
+    "You eventually settle for toast, fruit, and some leftover food from last night."
+
+    "Grandpa sits across from you."
+
+    g "So."
+
+    g "Any plans today?"
+
+    p "Not really."
+
+    p "I thought I'd walk around town."
+
+    g "Good idea."
+
+    g "A lot has changed, you know."
+
+    p "Really?"
+
+    g "Of course."
+
+    g "Eight years is a long time."
+
+    "You take another bite of toast."
+
+    p "I noticed."
+
+    "Grandpa smiles."
+
+    g "Just don't forget how to get home."
+
+    p "Grandpa!"
+
+    "He laughs."
+
+    g "I'm joking, I'm joking."
+
+    "You shake your head."
+
+    "Then your phone vibrates."
+
+    "A message appears on the screen."
+
+    m "HEYYYY"
+
+    m "GUESS WHO HEARD YOU'RE BACK IN TOWN"
+
+    "You stare at the messages."
+
+    p "...Mina?"
+
+    "You haven't talked properly in a while."
+
+    "But somehow, her messages still sound exactly like her."
+
+    menu:
+        "How do you reply?"
+
+        "MISS ME THAT MUCH?":
+            p "You type a reply."
+
+            "You: MISS ME THAT MUCH?"
+
+            m "NO."
+
+            m "OKAY MAYBE."
+
+            m "SHUT UP."
+
+            "You laugh."
+
+        "OMG MINA HI!!":
+            "You: OMG MINA HI!!"
+
+            m "DON'T OMG ME."
+
+            m "YOU CAME BACK AND DIDN'T TELL ME???"
+
+            "You: I LITERALLY GOT HERE YESTERDAY."
+
+            m "EXCUSES."
+
+        "Who is this?":
+            "You: Sorry, who is this?"
+
+            m "WOW."
+
+            m "EIGHT YEARS AND YOU'VE FORGOTTEN ME."
+
+            m "I'M BLOCKING YOU."
+
+            "You: HAHAHA I'M JOKING."
+
+    m "ANYWAY."
+
+    m "Kai's trying to organise a get-together."
+
+    m "Yuna said she's free this weekend."
+
+    m "I'm coming back too!"
+
+    m "WE'RE FINALLY GETTING THE GANG BACK TOGETHER."
+
+    "You smile at the screen."
+
+    "The gang."
+
+    "You haven't heard anyone call your friend group that in years."
+
+    "You: That actually sounds really nice."
+
+    m "RIGHT???"
+
+    m "oh btw"
+
+    m "Ren's coming back next week too."
+
+    "Your fingers pause above the keyboard."
+
+    "Ren."
+
+    "Seeing his name written so casually feels strange."
+
+    m "not sure exactly when though"
+
+    m "we'll figure something out!"
+
+    "You look at the messages for a moment."
+
+    "Then type a reply."
+
+    "You: Okay. Keep me updated!"
+
+    m "WILL DOOOO"
+
+    m "DON'T DISAPPEAR ON US AGAIN OKAY"
+
+    "You stare at that last message."
+
+    "You know Mina is joking."
+
+    "Still, something about it makes your chest tighten."
+
+    "You: I won't."
+
+    "You put your phone down."
+
+    g "Everything alright?"
+
+    p "Yeah."
+
+    p "Just an old friend."
+
+    g "Ah."
+
+    "Grandpa smiles knowingly."
+
+    g "Good."
+
+    g "It's nice to have people waiting for you."
+
+    "You glance down at your phone."
+
+    p "...Yeah."
+
+    scene black
+    with dissolve
+
+    centered "THE OLD STREETS"
+
+    "The town is quieter than you remember."
+
+    "Or perhaps you've just gotten used to the noise of the city."
+
+    "You walk past familiar houses."
+
+    "The little park where you used to play has been renovated."
+
+    "The swings are new."
+
+    "The slide has been replaced."
+
+    "But the old tree beside the entrance is still standing."
+
+    "You smile."
+
+    "You remember climbing it once."
+
+    "And getting stuck."
+
+    "Ren had laughed so hard he'd nearly fallen over."
+
+    "Then he'd run to get Grandpa."
+
+    p "Stupid tree."
+
+    "You continue walking."
+
+    "A few streets later, you arrive at the little shopping area near your old school."
+
+    "Some of the shops look different."
+
+    "The stationery store has become a bakery."
+
+    "The old bookstore is gone."
+
+    "But at the corner..."
+
+    "You stop."
+
+    p "...No way."
+
+    "The little drink shop is still there."
+
+    "The sign is newer."
+
+    "The menu is different."
+
+    "But you recognise it immediately."
+
+    "You used to come here after school."
+
+    "Almost every week."
+
+    "Usually with your friends."
+
+    "And almost always with Ren."
+
+    "You look at the menu."
+
+    "Then laugh quietly."
+
+    p "I wonder if they still sell that flavour..."
+
+    "A familiar memory begins to surface."
+
+    scene black
+    with fade
+
+    centered "NINE YEARS AGO"
+
+    centered "THE BET"
+
+    "It was an ordinary Friday afternoon."
+
+    "The five of you were gathered outside the drink shop."
+
+    "Kai was complaining about his test results."
+
+    k "THIS IS RIGGED."
+
+    y "It's a maths test."
+
+    k "EXACTLY."
+
+    k "MATHS IS RIGGED."
+
+    m "Maybe you should've studied."
+
+    k "I DID!"
+
+    b "Watching videos about studying doesn't count."
+
+    k "YOU'RE SUPPOSED TO BE ON MY SIDE."
+
+    "Everyone laughs."
+
+    "You take a sip of your drink."
+
+    b "Hey."
+
+    p "Hm?"
+
+    b "What'd you get for the test?"
+
+    p "Why?"
+
+    b "Just asking."
+
+    "You narrow your eyes."
+
+    p "...What did YOU get?"
+
+    "He grins."
+
+    b "Guess."
+
+    p "Eighty?"
+
+    b "Higher."
+
+    p "Eighty-five?"
+
+    b "Higher."
+
+    p "...Ninety?"
+
+    b "Higher."
+
+    p "I hate you."
+
+    b "That's not a number."
+
+    "You roll your eyes."
+
+    b "Ninety-four."
+
+    p "..."
+
+    p "I got ninety-three."
+
+    "His grin widens."
+
+    b "HAHAHAHA!"
+
+    p "IT'S ONE POINT!"
+
+    b "One point is still one point."
+
+    m "Oh, here we go."
+
+    y "Again?"
+
+    k "What's happening?"
+
+    m "They're being themselves."
+
+    "Ren leans closer."
+
+    b "So."
+
+    b "What do I win?"
+
+    p "WHAT DO YOU MEAN, WIN?"
+
+    b "I beat you."
+
+    p "BY ONE POINT!"
+
+    b "Still counts."
+
+    "He points at your drink."
+
+    b "You owe me bubble tea."
+
+    p "We didn't even make a bet!"
+
+    b "Should've thought of that before losing."
+
+    p "THAT DOESN'T MAKE SENSE!"
+
+    "Kai is practically wheezing with laughter."
+
+    k "JUST BUY HIM THE DRINK!"
+
+    p "YOU STAY OUT OF THIS!"
+
+    "Ren looks unbearably pleased with himself."
+
+    b "Come on."
+
+    b "It's just one drink."
+
+    p "You literally have one in your hand!"
+
+    b "This one's almost finished."
+
+    "You stare at him."
+
+    "He stares back."
+
+    menu:
+        "What do you do?"
+
+        "Fine! ONE drink.":
+            p "FINE."
+
+            p "ONE drink."
+
+            b "YES!"
+
+            "He pumps his fist."
+
+            p "You're so childish."
+
+            b "And yet I got ninety-four."
+
+            p "I'M TAKING IT BACK."
+
+        "Only if you beat me next time.":
+            p "Only if you beat me next time."
+
+            b "Deal."
+
+            "He holds out his hand."
+
+            "You shake it."
+
+            b "Better start studying."
+
+            p "YOU better start studying."
+
+            "He laughs."
+
+        "Try to escape.":
+            p "Actually, I just remembered something."
+
+            b "What?"
+
+            p "I have to go."
+
+            b "Where?"
+
+            p "Somewhere."
+
+            "You start walking away."
+
+            b "HEY!"
+
+            b "YOU CAN'T ESCAPE YOUR DEBTS!"
+
+            "Everyone bursts out laughing."
+
+    "Ren eventually catches up to you."
+
+    "The others are still talking behind you."
+
+    b "Hey."
+
+    p "What now?"
+
+    b "You know I'm joking, right?"
+
+    p "Obviously."
+
+    b "Good."
+
+    "He pauses."
+
+    b "You did really well on the test, by the way."
+
+    "You glance at him."
+
+    p "...Huh?"
+
+    b "Ninety-three."
+
+    b "That's pretty good."
+
+    p "..."
+
+    p "You got ninety-four."
+
+    b "So?"
+
+    b "Doesn't mean yours wasn't good."
+
+    "You look away."
+
+    "For some reason, that simple compliment makes you happier than it should."
+
+    p "...Thanks."
+
+    "He smiles."
+
+    b "Still owe me a drink, though."
+
+    p "REN!"
+
+    "He bursts out laughing."
+
+    "And despite yourself..."
+
+    "You laugh too."
+
+    scene black
+    with fade
+
+    "It's funny."
+
+    "You don't remember the exact questions on that test."
+
+    "You barely remember what you studied."
+
+    "But you remember his smile."
+
+    "The way the afternoon sunlight fell across the street."
+
+    "And how ridiculously happy you felt when he told you you'd done well."
+
+    "Back then, you didn't have a name for that feeling."
+
+    "Or maybe you did."
+
+    "Maybe you were simply too afraid to admit it."
+
+    scene black
+    with dissolve
+
+    centered "PRESENT DAY"
+
+    "You're standing outside the drink shop."
+
+    "The afternoon sun is warm against your skin."
+
+    "A small smile forms on your lips."
+
+    p "...You really never let that go."
+
+    "You think about the letter."
+
+    "{i}P.S. You still owe me bubble tea, by the way.{/i}"
+
+    "You laugh softly."
+
+    p "Eight years..."
+
+    p "And apparently I'm still in debt."
+
+    "You step inside."
+
+    "After a moment of studying the menu, you order your old favourite."
+
+    "The first sip is familiar."
+
+    "Not exactly how you remember it."
+
+    "But close."
+
+    "You take your drink and walk toward the little park."
+
+    scene black
+    with dissolve
+
+    centered "THE LITTLE PARK"
+
+    "You find an empty bench beneath the old tree."
+
+    "The afternoon breeze rustles the leaves."
+
+    "You sit down."
+
+    "For a while, you simply watch the world go by."
+
+    "A pair of children runs past."
+
+    "They're arguing about something."
+
+    "One of them is holding two ice creams."
+
+    "You smile."
+
+    "You wonder if they know how lucky they are."
+
+    "To have so many ordinary afternoons still waiting for them."
+
+    "Your phone rests in your hand."
+
+    "Mina's messages are still there."
+
+    "Ren's name sits quietly among them."
+
+    "You haven't seen him in eight years."
+
+    "You don't even know what he looks like now."
+
+    "You wonder whether he still makes the same stupid jokes."
+
+    "Whether he's still as competitive."
+
+    "Whether he still drinks the same bubble tea."
+
+    "Then another thought slips into your mind."
+
+    "What if he's completely different?"
+
+    "Of course he would be."
+
+    "You're different too."
+
+    "Eight years is a long time."
+
+    "You take another sip of your drink."
+
+    p "..."
+
+    p "I wonder what you're like now."
+
+    "You look up at the sky."
+
+    "Somewhere beyond this little town, he's living a life you know almost nothing about."
+
+    "And for the first time since reading his letter..."
+
+    "You realise something."
+
+    "You don't just want to remember the boy he used to be."
+
+    "You're curious about the person he's become."
+
+    scene black
+    with fade
+
+    centered "LATER THAT AFTERNOON"
+
+    "Your phone vibrates again."
+
+    m "UPDATE!!!"
+
+    m "Kai found a place for us to meet!"
+
+    m "Saturday evening!"
+
+    m "Yuna's coming too!"
+
+    "You smile."
+
+    "You: Sounds good!"
+
+    m "GOOD."
+
+    m "NO EXCUSES."
+
+    m "ALSO"
+
+    m "I HAVE SO MUCH TO TELL YOU."
+
+    "You laugh."
+
+    "You: That's slightly terrifying."
+
+    m "AS IT SHOULD BE."
+
+    "You stare at the screen for a moment."
+
+    "Then type something."
+
+    "You: Hey, Mina?"
+
+    m "YEAH?"
+
+    "Your fingers hover above the keyboard."
+
+    "You almost ask about Ren."
+
+    "Whether he's changed."
+
+    "Whether he's happy."
+
+    "Whether he's seeing someone."
+
+    "But you stop yourself."
+
+    "You: Nothing. See you Saturday!"
+
+    m "HAHA WEIRDO"
+
+    m "SEE YOUUU"
+
+    "You put your phone away."
+
+    "A small laugh escapes you."
+
+    p "Some things really don't change."
+
+    "Then you stand."
+
+    "It's getting late."
+
+    "Grandpa will probably wonder where you've disappeared to."
+
+    "You start walking home."
+
+    "And this time, the familiar streets don't feel quite so distant."
+
+    scene black
+    with fade
+
+    centered "End of Chapter 3"
 
     return
