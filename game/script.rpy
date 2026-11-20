@@ -4,6 +4,8 @@
 
 define p = Character("You", color="#c48b9f")
 define g = Character("Grandpa", color="#a8b88a")
+define b = Character("Ren", color="#88a8c4")
+define gm = Character("Grandma", color="#d8a77d")
 
 label start:
 
@@ -255,7 +257,7 @@ label start:
 
     "Standing beside him."
 
-    "Your oldest and closest friend."
+    "Your closest friend since childhood."
 
     "You remember this photograph."
 
@@ -454,8 +456,637 @@ label hidden_letter:
 
     "And someone shouting your name."
 
-    centered "CHAPTER 1"
-    centered "The Boy Next Door"
+    jump chapter_1
+
+    #Chapter 1 - The Boy Next Door
+
+    label chapter_1:
+
+        scene black
+        with fade
+
+        centered "CHAPTER 1"
+        centered "The Boy Next Door"
+
+        "Fourteen years ago."
+
+        "Summer."
+
+        "You were ten years old."
+
+        "Back then, your world was very small."
+
+        "There was the little house at the end of the street."
+
+        "The convenience store where Grandma sometimes bought you ice cream."
+
+        "The school that was only fifteen minutes away."
+
+        "And a certain boy who never seemed to know when to shut up."
+
+        b "OI!"
+
+        b "ARE YOU AWAKE YET?"
+
+        "..."
+
+        b "HELLOOOOOOOOOOOOOOOOOOOO?"
+
+        p "..."
+
+        p "Five more minutes..."
+
+        b "WE'RE GONNA BE LATE!"
+
+        p "Ugh... I'M COMING!"
+
+        "You bury your face in your pillow."
+
+        "It's too early."
+
+        "And he's too loud."
+
+        b "I'M COMING IN!"
+
+        p "YOU BETTER NOT!"
+
+        "A familiar laugh echoes from outside your window."
+
+        b "THEN HURRY UP!"
+
+        "You throw your blanket aside."
+
+        p "I'm going to kill him."
+
+        scene black
+        with dissolve
+
+        centered "KITCHEN"
+
+        "By the time you stumble downstairs, he's already sitting at the kitchen table."
+
+        "Of course he is."
+
+        "He's halfway through a bowl of noodles."
+
+        p "..."
+
+        p "Why are you eating MY breakfast?"
+
+        b "Grannie gave it to me."
+
+        p "GRANDMA!!"
+
+        gm "Don't shout so early in the morning, you two."
+
+        "Grandma places another bowl on the table."
+
+        gm "There's enough for both of you."
+
+        b "See? Grannie likes me more."
+
+        p "She does not!"
+
+        b "She gave me the bigger bowl."
+
+        p "That's because you eat SO MUCH like a pig!"
+
+        b "At least I wake up on time."
+
+        p "At least I don't invite myself into other people's houses!"
+
+        gm "Alright, alright. That's enough."
+
+        "Grandma shakes her head, smiling faintly."
+
+        gm "Every morning, the same thing."
+
+        gm "Eat before your noodles get cold."
+
+        "You sit down across from him."
+
+        "He grins at you, noodles dangling from his chopsticks."
+
+        b "Good morning, sleepyhead."
+
+        p "I hate you."
+
+        b "Love you too."
+
+        "He says it so casually that you barely react."
+
+        "Back then, words like that didn't mean anything special."
+
+        "They were just another way of saying hello."
+
+        scene black
+        with dissolve
+
+        centered "ON THE WAY TO SCHOOL"
+
+        "The morning air is warm."
+        
+        "The two of you walk along the familiar road, schoolbags bouncing against your backs."
+
+        "He walks beside you for a while."
+
+    "Then reaches into his schoolbag."
+
+    b "Here."
+
+    "He holds out a small packet of biscuits."
+
+    p "...What's this?"
+
+    b "Biscuits."
+
+    p "I can see that."
+
+    b "Then why'd you ask?"
+
+    p "..."
+
+    "He laughs again."
+
+    b "My mum bought extra."
+
+    b "You can have them."
+
+    "You take the packet."
+
+    menu:
+        "How do you respond?"
+
+        "Thank him properly.":
+            p "...Thanks."
+
+            b "Whoa."
+
+            b "You're being nice to me?"
+
+            p "Give them back then!"
+
+            b "NO TAKE BACKS!"
+
+        "Tease him instead.":
+            p "Are you trying to bribe me?"
+
+            b "Maybe."
+
+            p "It's working."
+
+            b "I KNEW IT!"
+
+        "Offer to share.":
+            p "Wanna share?"
+
+            b "I already ate some."
+
+            p "Of course you did."
+
+            b "But I'll take another!"
+
+    "The two of you continue walking."
+
+    "You talk about homework."
+
+    "About the upcoming school holidays."
+
+    "About absolutely nothing important."
+
+    "Neither of you notices how quickly the school comes into view."
+
+    scene black
+    with fade
+
+    centered "AFTER SCHOOL"
+
+    "The afternoon sun hangs lazily over the town."
+
+    "School is finally over."
+
+    "The two of you stop outside the little convenience store."
+
+    b "I'm getting ice cream."
+
+    p "Again?"
+
+    b "It's hot!"
+
+    p "You said that yesterday."
+
+    b "And it was hot yesterday too."
+
+    "He disappears into the shop."
+
+    "A moment later, he comes back holding two ice creams."
+
+    "He hands one to you."
+
+    p "Huh?"
+
+    b "Here."
+
+    p "I didn't ask for one."
+
+    b "I know."
+
+    p "Then why'd you buy it?"
+
+    b "Because I wanted to."
+
+    "He shrugs."
+
+    b "Besides, you always steal mine."
+
+    p "I DO NOT!"
+
+    b "You literally took half yesterday!"
+
+    p "That was ONE bite!"
+
+    b "Your bites are huge!"
+
+    "You glare at him."
+
+    "He grins."
+
+    b "Anyway, you owe me now."
+
+    p "What?!"
+
+    b "One ice cream."
+
+    p "You gave it to me!"
+
+    b "And?"
+
+    p "THAT'S NOT HOW GIFTS WORK!"
+
+    "He laughs so hard he nearly drops his own ice cream."
+
+    "You take a bite of yours."
+
+    p "Fine."
+
+    p "I'll buy you one next time."
+
+    b "Promise?"
+
+    p "Promise."
+
+    "He holds out his little finger."
+
+    p "What are you, five?"
+
+    b "A promise is a promise!"
+
+    "You roll your eyes."
+
+    "But you hook your pinky around his anyway."
+
+    b "There!"
+
+    b "Now you can't run away!"
+
+    p "Why would I run away?"
+
+    b "I dunno."
+
+    b "Maybe you'll move to the moon or something."
+
+    p "You're so stupid."
+
+    "He laughs."
+
+    "You laugh too."
+
+    "Neither of you thinks much of the promise."
+
+    "After all, there will always be another afternoon."
+
+    "Another walk home."
+
+    "Another chance to buy him ice cream."
+
+    "At least, that's what you believe."
+
+    scene black
+    with fade
+
+    "The memory begins to fade."
+
+    "The warmth of the afternoon sun."
+
+    "The sound of his laughter."
+
+    "The familiar road home."
+
+    "And that silly promise."
+
+    "For a moment, you wish you could remember every little detail."
+
+    "But memories are strange things."
+
+    "Some moments disappear entirely."
+
+    "Others stay with you for years."
+
+    "Even when you don't realise they're still there."
+
+    g "Hey!"
+
+    g "Are you coming down or not?"
+
+    "You blink."
+
+    scene black
+    with dissolve
+
+    centered "PRESENT DAY"
+
+    "You're sitting on the floor of your childhood bedroom."
+
+    "The framed photograph rests in your lap."
+
+    "The folded letter is still in your hand."
+
+    g "Dinner's ready!"
+
+    p "Coming!"
+
+    "You carefully put the letter back into its folds."
+
+    "This time, you don't hide it behind the photograph."
+
+    "You place it gently on the desk."
+
+    "Beside the picture frame."
+
+    "Then you get up."
+
+    jump chapter_1_dinner
+
+
+label chapter_1_dinner:
+
+    scene black
+    with fade
+
+    centered "DINNER FOR TWO"
+
+    "The dining table looks almost exactly as you remember."
+
+    "Except there are only two bowls now."
+
+    "Grandpa has prepared several dishes."
+
+    "Far more than two people could possibly finish."
+
+    p "Grandpa..."
+
+    p "Did you cook all this?"
+
+    g "Of course."
+
+    p "There's so much!"
+
+    g "You haven't been home in years."
+
+    g "Let me spoil you a little."
+
+    "You sit down."
+
+    "He places another spoonful of food into your bowl."
+
+    g "Eat more."
+
+    g "You're too skinny."
+
+    p "Grandpa, you said that eight years ago too."
+
+    g "And I was right eight years ago."
+
+    "You laugh."
+
+    "For a while, the two of you eat quietly."
+
+    "The food tastes familiar."
+
+    "Not exactly the same as Grandma's cooking."
+
+    "But close enough to make your chest ache."
+
+    p "Grandma would've said you put too much salt in this."
+
+    g "She would've."
+
+    "Grandpa chuckles."
+
+    g "Then she'd have eaten two servings anyway."
+
+    "You smile."
+
+    p "Yeah."
+
+    "A comfortable silence settles between you."
+
+    "Then Grandpa seems to remember something."
+
+    g "Oh, right."
+
+    g "Do you remember that boy who used to come over every morning?"
+
+    p "..."
+
+    p "Which boy?"
+
+    g "The noisy one."
+
+    g "Always stealing food from the kitchen."
+
+    p "That doesn't narrow it down."
+
+    g "The one who kept arguing with you."
+
+    p "Grandpa, that's still not helping."
+
+    g "The one who broke my flowerpot!"
+
+    p "..."
+
+    p "Oh."
+
+    "You suddenly remember a certain disastrous afternoon."
+
+    p "That was an accident!"
+
+    g "I never said it wasn't."
+
+    "He looks at you knowingly."
+
+    g "You always defended him."
+
+    p "I did not!"
+
+    g "Of course, of course."
+
+    "He chuckles."
+
+    g "Anyway, I ran into his grandmother the other day."
+
+    "You pause."
+
+    p "Really?"
+
+    g "Mm."
+
+    g "She asked how you were doing."
+
+    g "Said she heard you were coming back."
+
+    p "Oh..."
+
+    g "Her grandson's working out of town these days."
+
+    g "But apparently he'll be back soon."
+
+    "Your chopsticks stop halfway to your mouth."
+
+    p "...He is?"
+
+    g "Next week, I think."
+
+    g "Something about taking a few days off work."
+
+    "You lower your chopsticks."
+
+    "Next week."
+
+    "You repeat the words silently."
+
+    "You hadn't expected to hear about him so soon."
+
+    g "Why?"
+
+    g "Want to see him?"
+
+    p "What?!"
+
+    p "I mean..."
+
+    p "We haven't talked in years."
+
+    g "All the more reason to catch up."
+
+    "Grandpa takes another bite of food."
+
+    g "Oh, and I heard some of your other friends are coming back too."
+
+    p "My friends?"
+
+    g "Apparently someone mentioned you were visiting."
+
+    g "They're trying to arrange a little gathering."
+
+    p "Seriously?"
+
+    g "That's what I heard."
+
+    "You stare at him."
+
+    "For a moment, you're sixteen again."
+
+    "Standing with your friends outside the school gates."
+
+    "Laughing about something you've long since forgotten."
+
+    p "...It's really been eight years."
+
+    g "Time flies."
+
+    "He looks at you for a moment."
+
+    g "You know..."
+
+    g "Your grandmother used to wonder when you'd all get together again."
+
+    "You look up."
+
+    p "She did?"
+
+    g "Mm."
+
+    g "She always said this house was too quiet without you kids running around."
+
+    "You smile."
+
+    p "We were pretty noisy."
+
+    g "Pretty noisy?"
+
+    g "I nearly lost my hearing!"
+
+    "You burst out laughing."
+
+    "Grandpa joins you."
+
+    "For the first time since you arrived, the house feels a little more like home."
+
+    scene black
+    with fade
+
+    centered "LATER THAT NIGHT"
+
+    "After dinner, you return to your bedroom."
+
+    "The photograph is still on your desk."
+
+    "And beside it lies the letter."
+
+    "You pick it up again."
+
+    "Your eyes fall on the last few lines."
+
+    "{i}...I miss you already.{/i}"
+
+    "{i}And you haven't even left yet.{/i}"
+
+    p "..."
+
+    p "Next week, huh?"
+
+    "You wonder what he'll be like now."
+
+    "Whether he'll recognise you immediately."
+
+    "Whether you'll have anything to talk about."
+
+    "Or whether eight years will have turned two best friends into strangers."
+
+    "You place the letter beside your bed."
+
+    "Outside, the town is quiet."
+
+    "Somewhere in the distance, a dog barks."
+
+    "You close your eyes."
+
+    "And slowly, the sounds begin to change."
+
+    "Footsteps."
+
+    "Laughter."
+
+    "A school bell."
+
+    "Someone calling your name."
+
+    scene black
+    with fade
+
+    centered "CHAPTER 2"
+    centered "Just Friends, Obviously"
 
     "To be continued..."
 
