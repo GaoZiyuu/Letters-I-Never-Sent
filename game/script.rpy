@@ -1,6 +1,5 @@
 ﻿
 # Letters I Never Sent
-# Prologue - Home Again
 
 define p = Character("You", color="#c48b9f")
 define g = Character("Grandpa", color="#a8b88a")
@@ -11,7 +10,7 @@ define k = Character("Kai", color="#a9b7d8")
 define y = Character("Yuna", color="#b8a4d4")
 
 label start:
-
+    # Prologue - Home Again
     scene black
     with fade
 
@@ -22,7 +21,7 @@ label start:
 
     "That's how long it's been since you last lived in this little town."
 
-    "You were sixteen when you left."
+    "You were 16 when you left."
 
     "Your parents had spent years working overseas, while your grandparents raised you here."
 
@@ -34,7 +33,7 @@ label start:
 
     "You never got to graduate with your friends."
 
-    "And now, at twenty-four, you've come home again."
+    "And now, at 24, you've come home again."
 
     "The streets look almost exactly as you remember."
 
@@ -73,7 +72,7 @@ label start:
 
     "He laughs."
 
-    "Some things never change."
+    "Some things just never change."
 
     g "Come in. You must be hungry."
 
@@ -135,7 +134,7 @@ label start:
 
     g "Of course."
 
-    g "You could turn eighty and she'd still call you that."
+    g "You could turn 80 and she'd still call you that."
 
     "You both laugh."
 
@@ -314,13 +313,10 @@ label start:
 
     jump hidden_letter
 
-
 label hidden_letter:
 
     scene black
     with dissolve
-
-    centered "EIGHT YEARS AGO"
 
     "{i}Hey, idiot.{/i}"
 
@@ -830,7 +826,6 @@ label hidden_letter:
 
     jump chapter_1_dinner
 
-
 label chapter_1_dinner:
 
     scene black
@@ -1128,9 +1123,7 @@ label chapter_2:
 
     "And Ren is sitting in the chair beside you."
 
-    "Fifteen."
-
-    "You're fifteen again."
+    "Back when you were fifteen."
 
     "Or at least, that's how the memory feels."
 
@@ -1167,7 +1160,7 @@ label chapter_2:
 
     m "And I almost did!"
 
-    k "You got eighty-seven."
+    k "You got 87."
 
     m "Exactly. Almost."
 
@@ -1571,9 +1564,9 @@ label chapter_2:
 
     "Right."
 
-    "You're twenty-four."
+    "You're 24."
 
-    "Not fifteen."
+    "Not 15."
 
     "That afternoon happened nine years ago."
 
@@ -1604,10 +1597,9 @@ label chapter_2:
 
     jump chapter_3
 
-
-# Chapter 3 - The Little Things
-
 label chapter_3:
+
+    # Chapter 3 - The Little Things
 
     scene black
     with fade
@@ -1645,9 +1637,9 @@ label chapter_3:
 
     g "Obviously."
 
-    p "Why are they grey?"
+    p "Why are they black?"
 
-    g "They're not grey!"
+    g "They're not black!"
 
     "You look at him."
 
@@ -1718,10 +1710,10 @@ label chapter_3:
     menu:
         "How do you reply?"
 
-        "MISS ME THAT MUCH?":
+        "Miss me that much?":
             p "You type a reply."
 
-            "You: MISS ME THAT MUCH?"
+            "You: Miss me that much?"
 
             m "NO."
 
@@ -1947,15 +1939,15 @@ label chapter_3:
 
     b "Guess."
 
-    p "Eighty?"
+    p "80?"
 
     b "Higher."
 
-    p "Eighty-five?"
+    p "85?"
 
     b "Higher."
 
-    p "...Ninety?"
+    p "...90?"
 
     b "Higher."
 
@@ -1965,11 +1957,11 @@ label chapter_3:
 
     "You roll your eyes."
 
-    b "Ninety-four."
+    b "94."
 
     p "..."
 
-    p "I got ninety-three."
+    p "I got 93."
 
     "His grin widens."
 
@@ -2105,13 +2097,13 @@ label chapter_3:
 
     p "...Huh?"
 
-    b "Ninety-three."
+    b "93."
 
     b "That's pretty good."
 
     p "..."
 
-    p "You got ninety-four."
+    p "You got 94."
 
     b "So?"
 
@@ -2340,10 +2332,8 @@ label chapter_3:
 
     jump chapter_4
 
-
-# Chapter 4 - Before We Were Strangers
-
 label chapter_4:
+    # Chapter 4 - Before We Were Strangers
 
     scene black
     with fade
@@ -2409,7 +2399,7 @@ label chapter_4:
 
     g "And don't stay out too late."
 
-    p "I'm twenty-four."
+    p "I'm 24."
 
     g "And?"
 
@@ -2440,7 +2430,7 @@ label chapter_4:
 
     centered "THE REUNION"
 
-    "The café is tucked away along a quiet street."
+    "The cafe is tucked away along a quiet street."
 
     "It wasn't here eight years ago."
 
@@ -2611,7 +2601,7 @@ label chapter_4:
 
     p "MINA."
 
-    k "OH HERE WE GO."
+    k "Oh here we go."
 
     y "You haven't changed at all."
 
@@ -2853,7 +2843,7 @@ label chapter_4:
 
     "Or at least, it was supposed to be."
 
-    "You were sixteen."
+    "You were 16."
 
     "The classroom was noisy."
 
@@ -3143,7 +3133,7 @@ label chapter_4:
 
     centered "PRESENT DAY"
 
-    "The café is beginning to empty."
+    "The cafe is beginning to empty."
 
     "Mina checks her phone."
 
@@ -3165,7 +3155,7 @@ label chapter_4:
 
     "Outside, the evening air is cool."
 
-    "The four of you stand beneath the café's warm lights."
+    "The four of you stand beneath the cafe's warm lights."
 
     "For a moment, nobody seems to want to leave."
 
@@ -3214,24 +3204,21 @@ label chapter_4:
 
     jump chapter_5
 
-
-# Chapter 5 - The Days Before Goodbye
-
 label chapter_5:
-
+    # Chapter 5 - The Days Before Goodbye
     scene black
     with fade
 
     centered "CHAPTER 5"
     centered "The Days Before Goodbye"
 
-    "The streets are quiet by the time you leave the café."
+    "The streets are quiet by the time you leave the cafe."
 
     "You walk home beneath the familiar streetlights."
 
     "Your phone is filled with photographs from tonight."
 
-    "Mina insisted on taking at least twenty."
+    "Mina insisted on taking at least 20."
 
     "Kai complained through every single one."
 
@@ -3991,11 +3978,8 @@ label chapter_5:
 
     jump chapter_6
 
-
-# Chapter 6 - The Last Summer
-
 label chapter_6:
-
+    # Chapter 6 - The Last Summer
     scene black
     with fade
 
@@ -4093,9 +4077,9 @@ label chapter_6:
 
     m "THEY WERE ON SALE!"
 
-    y "She bought forty."
+    y "She bought 40."
 
-    p "FORTY?!"
+    p "40?!"
 
     "You look around."
 
@@ -4908,7 +4892,7 @@ label chapter_6:
 
     "The cool evening air brushes against your face."
 
-    "You're walking home from the café."
+    "You're walking home from the cafe."
 
     "Your phone is full of new photographs."
 
@@ -4945,11 +4929,8 @@ label chapter_6:
 
     jump chapter_7
 
-
-# Chapter 7 - Eight Years Later
-
 label chapter_7:
-
+    # Chapter 7 - Eight Years Later
     scene black
     with fade
 
@@ -5331,7 +5312,7 @@ label chapter_7:
 
     p "You nearly burned instant noodles once!"
 
-    b "I WAS TWELVE!"
+    b "I WAS 12!"
 
     p "And I have photographic evidence!"
 
@@ -5703,7 +5684,7 @@ label chapter_7:
 
     b "I DON'T KNOW!"
 
-    b "I WAS SIXTEEN!"
+    b "I WAS 16!"
 
     "You stare at each other."
 
@@ -5767,7 +5748,7 @@ label chapter_7:
 
     "You look at him."
 
-    "For a moment, you see the sixteen-year-old boy standing at your grandparents' gate."
+    "For a moment, you see the 16 year old boy standing at your grandparents' gate."
 
     "Trying to smile."
 
@@ -5930,7 +5911,7 @@ label chapter_7:
 
     b "you still owe me bubble tea"
 
-    "You burst out laughing."
+    "You chuckled."
 
     p "Unbelievable."
 
@@ -5946,7 +5927,7 @@ label chapter_7:
 
     "Whether you were imagining things."
 
-    "But you're not sixteen anymore."
+    "But you're not 16 anymore."
 
     "You smile."
 
@@ -5973,11 +5954,8 @@ label chapter_7:
 
     jump epilogue
 
-
-# Epilogue - If We Meet Again
-
 label epilogue:
-
+    # Epilogue - If We Meet Again
     scene black
     with fade
 
@@ -6195,7 +6173,7 @@ label epilogue:
 
     "He thinks for a moment."
 
-    b "I was sixteen."
+    b "I was 16."
 
     b "I liked my best friend."
 
@@ -6243,7 +6221,7 @@ label epilogue:
 
     "It's strange."
 
-    "You're twenty-four."
+    "You're 24."
 
     "You've given presentations."
 
@@ -6509,11 +6487,8 @@ label epilogue:
         "I'm glad we had those years together.":
             jump ending_bittersweet
 
-
-# Ending 1 - A New Beginning
-
 label ending_romance:
-
+    # Ending 1 - A New Beginning
     scene black
     with dissolve
 
@@ -6536,7 +6511,7 @@ label ending_romance:
 
     "You laugh nervously."
 
-    p "We're not sixteen anymore."
+    p "We're not 16 anymore."
 
     p "There's so much we don't know about each other."
 
@@ -6729,11 +6704,8 @@ label ending_romance:
 
     return
 
-
-# Ending 2 - The Things We Keep
-
 label ending_bittersweet:
-
+    # Ending 2 - The Things We Keep
     scene black
     with dissolve
 
