@@ -2338,6 +2338,881 @@ label chapter_3:
     scene black
     with fade
 
-    centered "End of Chapter 3"
+    jump chapter_4
+
+
+# Chapter 4 - Before We Were Strangers
+
+label chapter_4:
+
+    scene black
+    with fade
+
+    centered "CHAPTER 4"
+    centered "Before We Were Strangers"
+
+    "Saturday."
+
+    "By the time evening arrives, you've changed your outfit three times."
+
+    "You stand in front of the mirror."
+
+    p "..."
+
+    p "Why am I nervous?"
+
+    "It's just Mina, Kai, and Yuna."
+
+    "People you've known since you were kids."
+
+    "People who have seen you cry over scraped knees, failed quizzes, and terrible haircuts."
+
+    "There's absolutely no reason to be nervous."
+
+    "And yet..."
+
+    "You glance at your reflection again."
+
+    p "Do I look weird?"
+
+    g "You look fine!"
+
+    "Grandpa's voice comes from the hallway."
+
+    p "GRANDPA!"
+
+    g "What?"
+
+    p "I wasn't asking you!"
+
+    g "Then stop talking so loudly!"
+
+    "You sigh."
+
+    "A moment later, Grandpa appears at the doorway."
+
+    g "Meeting your friends?"
+
+    p "Yeah."
+
+    g "Good."
+
+    g "Tell them to come over sometime."
+
+    g "The house has been too quiet lately."
+
+    "You pause."
+
+    p "...Okay."
+
+    "Grandpa smiles."
+
+    g "And don't stay out too late."
+
+    p "I'm twenty-four."
+
+    g "And?"
+
+    p "..."
+
+    p "Fine."
+
+    "He laughs."
+
+    g "Have fun."
+
+    "You pick up your bag."
+
+    "For a moment, your eyes drift toward the photograph on your desk."
+
+    "Five teenagers."
+
+    "Five familiar smiles."
+
+    "Tonight, you'll be seeing three of them again."
+
+    "You take a deep breath."
+
+    p "Here goes nothing."
+
+    scene black
+    with dissolve
+
+    centered "THE REUNION"
+
+    "The café is tucked away along a quiet street."
+
+    "It wasn't here eight years ago."
+
+    "Warm light spills through the windows."
+
+    "You stop outside and check your phone."
+
+    m "WE'RE HEREEEE"
+
+    m "WHERE ARE YOU"
+
+    m "DON'T TELL ME YOU GOT LOST"
+
+    "You laugh."
+
+    "You: I'm literally outside."
+
+    m "THEN GET IN HERE."
+
+    "You push open the door."
+
+    "A small bell rings overhead."
+
+    "For a moment, you scan the room."
+
+    "Then—"
+
+    m "OH MY GOD!"
+
+    "Someone practically launches herself out of a chair."
+
+    "Before you can react, Mina throws her arms around you."
+
+    m "YOU'RE ACTUALLY HERE!"
+
+    p "MINA!"
+
+    "You stumble backward, laughing."
+
+    p "I CAN'T BREATHE!"
+
+    m "TOO BAD!"
+
+    m "EIGHT YEARS!"
+
+    "You hug her back."
+
+    "She smells faintly of perfume."
+
+    "Her hair is shorter than you remember."
+
+    "But her voice?"
+
+    "Exactly the same."
+
+    k "Wow."
+
+    k "You two are embarrassing."
+
+    "You look over Mina's shoulder."
+
+    "Kai is sitting at the table."
+
+    "He's taller now."
+
+    "His hair is neatly styled."
+
+    "He looks almost respectable."
+
+    "Almost."
+
+    p "Kai?"
+
+    k "The one and only."
+
+    p "You look so different!"
+
+    k "I know."
+
+    k "I've become incredibly handsome."
+
+    y "He rehearsed that."
+
+    "You turn."
+
+    "Yuna smiles at you from her seat."
+
+    p "YUNA!"
+
+    y "Welcome back."
+
+    "Her voice is as gentle as you remember."
+
+    "You hurry over and hug her."
+
+    y "It's good to see you."
+
+    p "You too."
+
+    "For a moment, you simply look at them."
+
+    "Mina."
+
+    "Kai."
+
+    "Yuna."
+
+    "Your friends."
+
+    "Older."
+
+    "Different."
+
+    "But somehow still familiar."
+
+    m "Okay!"
+
+    m "Everyone sit down before I start crying!"
+
+    k "You're already crying."
+
+    m "SHUT UP!"
+
+    "Everyone laughs."
+
+    scene black
+    with dissolve
+
+    centered "EIGHT YEARS"
+
+    "At first, the conversation is chaotic."
+
+    "Everyone talks over everyone else."
+
+    "Mina wants to know everything about your life overseas."
+
+    "Kai insists on showing you photographs of his new apartment."
+
+    "Yuna quietly makes sure you actually get a chance to order something."
+
+    "You learn that Mina works in marketing."
+
+    "Kai has moved to the city for work."
+
+    "And Yuna is finishing her postgraduate studies."
+
+    "It's strange."
+
+    "You used to know what they ate for lunch."
+
+    "Which teachers they hated."
+
+    "Who they had arguments with."
+
+    "Now you're learning about entire years of their lives over drinks."
+
+    m "So!"
+
+    m "Any exciting news?"
+
+    p "Like what?"
+
+    m "You know."
+
+    "She wiggles her eyebrows."
+
+    m "Romance?"
+
+    p "MINA."
+
+    k "OH HERE WE GO."
+
+    y "You haven't changed at all."
+
+    m "WHAT?"
+
+    m "I'm just asking!"
+
+    menu:
+        "How do you respond?"
+
+        "Some things are private, you know.":
+            p "Some things are private, you know."
+
+            m "OOOOOH."
+
+            m "SO THERE IS SOMETHING!"
+
+            p "THAT'S NOT WHAT I SAID!"
+
+            "Everyone laughs."
+
+        "What about YOU?":
+            p "What about you?"
+
+            p "Any exciting romance stories?"
+
+            m "HEY!"
+
+            k "OH, SHE GOT YOU."
+
+            m "THIS IS SUPPOSED TO BE ABOUT YOU!"
+
+            "You grin."
+
+        "I'm more interested in catching up with everyone.":
+            p "I'm more interested in catching up with everyone."
+
+            y "Good answer."
+
+            m "BOOO."
+
+            k "Let her breathe, Mina."
+
+            m "FINE."
+
+    "The conversation moves on."
+
+    "Stories are exchanged."
+
+    "Old photographs are passed around."
+
+    "At some point, Kai brings up a particularly embarrassing school performance."
+
+    k "I STILL HAVE THE VIDEO."
+
+    p "DELETE IT."
+
+    m "NEVER!"
+
+    y "I think I have a copy too."
+
+    p "YUNA?!"
+
+    "Everyone bursts out laughing."
+
+    "For a little while, it feels like no time has passed at all."
+
+    "But then Mina glances around the table."
+
+    m "You know..."
+
+    m "It's weird without Ren here."
+
+    "Your smile falters slightly."
+
+    p "...Yeah."
+
+    k "That guy always managed to make things louder."
+
+    y "Usually because you were arguing with him."
+
+    k "THAT'S DIFFERENT."
+
+    "Mina laughs."
+
+    m "You remember how you two used to fight over literally everything?"
+
+    p "Unfortunately."
+
+    k "You were both impossible."
+
+    p "Excuse me?"
+
+    k "You heard me."
+
+    "You laugh."
+
+    "Then hesitate."
+
+    p "So..."
+
+    p "How's he doing?"
+
+    "Mina looks at you."
+
+    m "Ren?"
+
+    p "Yeah."
+
+    p "We kind of lost touch."
+
+    "For a moment, the table becomes quieter."
+
+    y "He's doing alright, from what I've heard."
+
+    k "Working in the city."
+
+    m "He doesn't come back very often."
+
+    m "But he still visits his family when he can."
+
+    "You nod."
+
+    p "I see."
+
+    "You stare at your drink."
+
+    "It's strange."
+
+    "There was a time when you could've answered any question about Ren without thinking."
+
+    "Now you're learning about his life from other people."
+
+    m "Actually..."
+
+    "Mina leans forward slightly."
+
+    m "You know he was pretty quiet after you left?"
+
+    "You look up."
+
+    p "...Ren?"
+
+    p "Quiet?"
+
+    k "I KNOW, RIGHT?"
+
+    k "Didn't think it was possible."
+
+    "Mina elbows him."
+
+    m "I'm serious!"
+
+    m "For a while, he barely wanted to hang out."
+
+    y "He still came to school."
+
+    y "Still joked around."
+
+    y "But it wasn't quite the same."
+
+    "You look down."
+
+    "You remember the letter."
+
+    "{i}And I really, really hate that you're leaving.{/i}"
+
+    p "...Oh."
+
+    m "He got better eventually, obviously."
+
+    m "We all did."
+
+    "There's a small pause."
+
+    "Then Yuna smiles."
+
+    y "We missed you too, you know."
+
+    "You look up."
+
+    y "It wasn't just Ren."
+
+    "Mina nods."
+
+    m "YEAH!"
+
+    m "You left us with THESE TWO."
+
+    k "WHAT'S THAT SUPPOSED TO MEAN?"
+
+    "You laugh."
+
+    "But something in your chest feels heavy."
+
+    p "I missed you guys too."
+
+    "Mina reaches across the table and squeezes your hand."
+
+    m "We know."
+
+    "For a moment, nobody speaks."
+
+    "Then Kai clears his throat."
+
+    k "Okay, this is getting depressing."
+
+    k "Someone order fries."
+
+    m "KAI!"
+
+    "Everyone laughs."
+
+    "And just like that, the moment passes."
+
+    scene black
+    with dissolve
+
+    centered "THE DAY EVERYTHING CHANGED"
+
+    "Later, while everyone is talking about school, Mina mentions something."
+
+    m "Do you remember the day you told us you were moving?"
+
+    "You pause."
+
+    p "...Yeah."
+
+    "Of course you remember."
+
+    "How could you forget?"
+
+    scene black
+    with fade
+
+    centered "EIGHT YEARS AGO"
+
+    "It was an ordinary school day."
+
+    "Or at least, it was supposed to be."
+
+    "You were sixteen."
+
+    "The classroom was noisy."
+
+    "Kai was arguing with Mina about something."
+
+    "Yuna was reading."
+
+    "And Ren was sitting beside you, tapping his pencil against the desk."
+
+    b "Hey."
+
+    p "What?"
+
+    b "You okay?"
+
+    "You look at him."
+
+    p "Why?"
+
+    b "You've been quiet."
+
+    p "I'm always quiet."
+
+    b "HAHA."
+
+    b "Good one."
+
+    "You attempt a smile."
+
+    "He doesn't laugh this time."
+
+    b "Seriously."
+
+    b "What's wrong?"
+
+    "You look down at your hands."
+
+    "Your parents had called the night before."
+
+    "After years of working overseas, they'd finally settled down."
+
+    "They wanted you to come live with them."
+
+    "You were happy."
+
+    "Of course you were."
+
+    "You missed them."
+
+    "But..."
+
+    "You look around the classroom."
+
+    "At your friends."
+
+    "At the desks you'd sat at for years."
+
+    "At Ren."
+
+    "You take a breath."
+
+    p "Actually..."
+
+    p "There's something I need to tell you guys."
+
+    "Mina looks over."
+
+    m "Hm?"
+
+    "Kai stops arguing."
+
+    k "What?"
+
+    "Yuna closes her book."
+
+    "Ren turns toward you."
+
+    b "What's up?"
+
+    "You swallow."
+
+    p "I'm..."
+
+    p "I'm moving."
+
+    "Silence."
+
+    m "...What?"
+
+    p "Overseas."
+
+    p "To live with my parents."
+
+    "Nobody speaks."
+
+    k "Wait."
+
+    k "Like... moving moving?"
+
+    p "Yeah."
+
+    y "When?"
+
+    "You hesitate."
+
+    p "In three months."
+
+    "Mina stares at you."
+
+    m "THREE MONTHS?!"
+
+    p "I only found out yesterday!"
+
+    k "WHAT ABOUT GRADUATION?"
+
+    "You look down."
+
+    p "...I won't be graduating here."
+
+    "The words feel strange coming out of your mouth."
+
+    "You'd known it since last night."
+
+    "But saying it aloud makes it real."
+
+    "Mina's eyes begin to water."
+
+    m "That's not fair."
+
+    "She tries to laugh."
+
+    m "Who's going to help me survive exams?"
+
+    k "ME!"
+
+    m "THAT'S EVEN WORSE!"
+
+    "Everyone laughs weakly."
+
+    "Then Yuna reaches over and takes your hand."
+
+    y "Are you okay with it?"
+
+    "You pause."
+
+    "It's a simple question."
+
+    "But suddenly, you don't know how to answer."
+
+    menu:
+        "What do you say?"
+
+        "I'm happy I get to live with my parents.":
+            p "I'm happy."
+
+            p "I mean, I'll finally get to live with my parents."
+
+            p "I've wanted that for a long time."
+
+            y "Then I'm happy for you."
+
+            "She squeezes your hand."
+
+            y "Really."
+
+        "I don't know how I feel.":
+            p "Honestly?"
+
+            p "I don't know."
+
+            p "I want to go."
+
+            p "But I don't want to leave."
+
+            y "That makes sense."
+
+            "She smiles gently."
+
+            y "You can feel both."
+
+        "I don't want to leave you guys.":
+            p "I don't want to leave you guys."
+
+            "Your voice trembles."
+
+            m "DON'T."
+
+            m "DON'T MAKE ME CRY."
+
+            "Mina throws her arms around you."
+
+            "You laugh through your tears."
+
+    "You look toward Ren."
+
+    "He hasn't said anything."
+
+    "He's staring at his desk."
+
+    p "...Ren?"
+
+    "He looks up."
+
+    b "Hm?"
+
+    p "You okay?"
+
+    "For a moment, he simply looks at you."
+
+    "Then he smiles."
+
+    b "Yeah."
+
+    b "Of course."
+
+    b "It's good news, right?"
+
+    p "..."
+
+    b "You finally get to live with your parents."
+
+    b "That's what you've always wanted."
+
+    "He smiles again."
+
+    b "I'm happy for you."
+
+    "You try to smile back."
+
+    p "...Thanks."
+
+    "But something about his expression feels different."
+
+    "You can't quite explain it."
+
+    "And before you can ask..."
+
+    k "WAIT."
+
+    k "THREE MONTHS?"
+
+    k "THAT MEANS WE NEED A FAREWELL PARTY."
+
+    m "YES."
+
+    m "A HUGE ONE."
+
+    y "Maybe something small would be nicer."
+
+    k "A HUGE SMALL PARTY."
+
+    p "THAT DOESN'T EVEN MAKE SENSE!"
+
+    "Everyone laughs."
+
+    "Even Ren."
+
+    "But when you glance at him again..."
+
+    "He's looking out the window."
+
+    "His smile has faded."
+
+    scene black
+    with fade
+
+    "You remember that day clearly."
+
+    "The surprise."
+
+    "The tears."
+
+    "The laughter."
+
+    "And the way Ren had smiled when he told you he was happy."
+
+    "Back then, you'd believed him."
+
+    "Now, eight years later..."
+
+    "You understand that he could have meant every word."
+
+    "And still been heartbroken."
+
+    scene black
+    with dissolve
+
+    centered "PRESENT DAY"
+
+    "The café is beginning to empty."
+
+    "Mina checks her phone."
+
+    m "OH MY GOD."
+
+    m "IS IT REALLY THAT LATE?"
+
+    k "We've been here for four hours."
+
+    p "FOUR?!"
+
+    y "Time flies when Kai won't stop talking."
+
+    k "WHY AM I ALWAYS THE TARGET?"
+
+    "Everyone laughs."
+
+    "You gather your things."
+
+    "Outside, the evening air is cool."
+
+    "The four of you stand beneath the café's warm lights."
+
+    "For a moment, nobody seems to want to leave."
+
+    m "We should do this again."
+
+    p "Definitely."
+
+    y "Next time, all five of us."
+
+    "Your heart gives a small jump."
+
+    p "...Yeah."
+
+    "All five."
+
+    "You wonder what it'll feel like."
+
+    "Standing together again after eight years."
+
+    "Would it be awkward?"
+
+    "Would it feel natural?"
+
+    "Would Ren smile at you the same way he used to?"
+
+    m "HEY."
+
+    "Mina snaps her fingers in front of your face."
+
+    m "EARTH TO YOU."
+
+    p "WHAT?"
+
+    m "Don't disappear on us again, okay?"
+
+    "You stare at her."
+
+    "Then smile."
+
+    p "I won't."
+
+    "This time, you mean it."
+
+    scene black
+    with fade
+
+    centered "End of Chapter 4"
 
     return
+
