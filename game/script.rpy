@@ -1,6 +1,6 @@
 ﻿
 # Letters I Never Sent
-# Chapter 0 - Home Again
+# Prologue - Home Again
 
 define p = Character("You", color="#c48b9f")
 define g = Character("Grandpa", color="#a8b88a")
@@ -10,7 +10,7 @@ label start:
     scene black
     with fade
 
-    centered "CHAPTER 0"
+    centered "PROLOGUE"
     centered "Home Again"
 
     "Eight years."
@@ -29,7 +29,7 @@ label start:
 
     "You never got to graduate with your friends."
 
-    "And now, at 24, you've come home again."
+    "And now, at twenty-four, you've come home again."
 
     "The streets look almost exactly as you remember."
 
@@ -138,6 +138,8 @@ label start:
 
     g "Anyway, go put your suitcase away."
 
+    g "I'll call you when dinner's ready."
+
     g "Your room's just how you left it."
 
     scene black
@@ -165,9 +167,13 @@ label start:
 
     "You place your suitcase beside the bed."
 
-    "A cardboard box sits beneath your desk."
+    "A few cardboard boxes sit beneath your desk."
 
-    "You pull it out."
+    "Some contain things you left behind at sixteen."
+
+    "Others are filled with belongings you'd sent back when you moved apartments a few years ago."
+
+    "You kneel and pull one of them closer."
 
     "Inside are old exercise books, photographs, and little things you'd forgotten you owned."
 
@@ -195,7 +201,7 @@ label start:
 
     "Someone has written beside an unfinished math question."
 
-    "Stop daydreaming and finish your homework."
+    "{i}Stop daydreaming and finish your homework.{/i}"
 
     "You smile."
 
@@ -205,7 +211,7 @@ label start:
 
     "The one who knew exactly how to annoy you."
 
-    "The one who'd been your friend for as long as you could remember."
+    "Your best friend since you were kids."
 
     "You wonder how he's doing now."
 
@@ -249,7 +255,7 @@ label start:
 
     "Standing beside him."
 
-    "Your best friend since you were kids."
+    "Your oldest and closest friend."
 
     "You remember this photograph."
 
@@ -261,6 +267,10 @@ label start:
 
     "And you did."
 
+    "For years, it sat on the desk in your bedroom overseas."
+
+    "Eventually, it found its way into a box when you moved apartments."
+
     "You trace a finger across the dusty glass."
 
     "The people in the photograph are all sixteen."
@@ -271,27 +281,182 @@ label start:
 
     p "I wonder how everyone's doing."
 
-    "You place the frame on your desk."
+    "You turn the frame over to wipe the dust from its back."
 
-    "The sunlight catches its glass."
+    "Something shifts beneath your fingers."
 
-    "You look at the photograph one last time."
+    p "Hm?"
 
-    "There was a time when you couldn't imagine going a single day without seeing them."
+    "The wooden backing has come slightly loose."
 
-    "You didn't know how easily a day could become a week."
+    "You try to press it back into place."
 
-    "Or how a week could become a year."
+    "But as you lift one of the little metal clips, something slips out."
 
-    "You smile faintly."
+    "A folded piece of paper."
 
-    p "It's been a while, hasn't it?"
+    p "...What's this?"
+
+    "You pick it up."
+
+    "The paper has yellowed slightly with age."
+
+    "There's handwriting on the front."
+
+    "Messy, familiar handwriting."
+
+    "You unfold it carefully."
+
+    jump hidden_letter
+
+
+label hidden_letter:
+
+    scene black
+    with dissolve
+
+    centered "EIGHT YEARS AGO"
+
+    "{i}Hey, idiot.{/i}"
+
+    "You laugh under your breath."
+
+    p "Of course you'd start with that."
+
+    "{i}I don't know when you'll find this. Maybe tomorrow, maybe a few years from now. Or maybe you won't find it at all.{/i}"
+
+    "{i}Honestly, I don't even know why I'm writing this.{/i}"
+
+    "{i}There's a lot I wanted to tell you before you left, but every time I tried, I couldn't get the words out.{/i}"
+
+    "{i}I guess I was scared.{/i}"
+
+    "{i}I don't know if you ever felt the same way about me. And I don't know what things will be like once you're gone.{/i}"
+
+    "{i}Maybe we'll still talk every day. Maybe we'll slowly stop talking.{/i}"
+
+    "{i}I really hope it's not the second one, haha.{/i}"
+
+    "Your smile falters."
+
+    "{i}But anyway...{/i}"
+
+    "{i}I like you.{/i}"
+
+    "{i}I've liked you for a while now, actually.{/i}"
+
+    p "...What?"
+
+    "You stare at the words."
+
+    "For a moment, you wonder if you've read them wrong."
+
+    "But the handwriting is unmistakable."
+
+    "You continue reading."
+
+    "{i}I don't know when it started. Maybe it was when you fell asleep during our study session and got mad at me for not waking you up.{/i}"
+
+    "{i}Or when you bought me a drink because you remembered I didn't have enough money that day.{/i}"
+
+    "{i}Or maybe there wasn't really a moment.{/i}"
+
+    "{i}I just know that somewhere along the way, I started looking forward to seeing you more than I should have.{/i}"
+
+    "{i}I wish I'd told you sooner.{/i}"
+
+    "{i}And I really, really hate that you're leaving.{/i}"
+
+    "{i}But I know you've been looking forward to living with your parents, too. So I can't exactly tell you not to go, can I?{/i}"
+
+    "{i}I hope you'll be happy over there.{/i}"
+
+    "{i}I hope you'll make lots of friends, eat good food, and have a life full of things that make you smile.{/i}"
+
+    "{i}Even if we stop talking someday, I think knowing you're happy would make me happy too.{/i}"
+
+    "{i}So take care of yourself, okay?{/i}"
+
+    "{i}And don't forget about us too quickly.{/i}"
+
+    "You lower the paper slightly."
+
+    "Eight years."
+
+    "For eight years, you'd thought you were the only one."
+
+    "You'd spent so long convincing yourself that he only ever saw you as a friend."
+
+    "All those moments you thought you'd imagined..."
+
+    p "...You liked me?"
+
+    "You look back down at the letter."
+
+    "There's something else written at the bottom."
+
+    "{i}P.S. You still owe me bubble tea, by the way. Don't think moving to another country gets you out of it.{/i}"
+
+    "A small laugh escapes you."
+
+    p "Seriously...?"
+
+    "Your eyes sting."
+
+    "{i}P.P.S. I was going to write something really cool here, but I can't think of anything.{/i}"
+
+    "{i}...I miss you already.{/i}"
+
+    "{i}And you haven't even left yet.{/i}"
+
+    p "..."
+
+    "You read those last two lines again."
+
+    "And then once more."
+
+    "For a long moment, you don't know what to say."
+
+    "You laugh quietly, wiping at the corner of your eye."
+
+    p "You idiot..."
+
+    p "You could've just told me."
+
+    "You pause."
+
+    p "...Though I guess I wasn't any better."
+
+    "You carefully fold the letter."
+
+    "Then you look at the photograph again."
+
+    "Five teenagers, smiling as though the world would stay exactly as it was."
+
+    "You wonder what he looks like now."
+
+    "Whether he still laughs the same way."
+
+    "Whether he remembers those afternoons after school."
+
+    p "I wonder where you are now..."
+
+    "Your eyes drift back to his face in the photograph."
+
+    "And suddenly, a memory comes rushing back."
 
     scene black
     with fade
 
-    centered "Some memories never really leave us."
+    "A familiar voice."
 
-    centered "End of Chapter 0"
+    "The sound of footsteps outside Grandma's gate."
+
+    "And someone shouting your name."
+
+    centered "CHAPTER 1"
+    centered "The Boy Next Door"
+
+    "To be continued..."
 
     return
